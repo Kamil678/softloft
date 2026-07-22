@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Design tokens — Affueria.
+  Colors as CSS variables so swapping the palette (e.g. the final gold from
+  the client's logo) is a one-line change. Values below are placeholders
+  agreed on in the kickoff meeting.
+*/
+:root {
+  --color-bg: #ffffff;
+  --color-header: #1a1a1a;
+  --color-footer: #000000;
+  --color-footer-text: #ffffff;
+
+  /* PLACEHOLDER — exact gold code + fonts to be sent by the client based on their logo */
+  --color-accent: #c9a227;
+  --color-accent-text: #1a1a1a;
+}
