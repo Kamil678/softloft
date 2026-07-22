@@ -12,17 +12,8 @@ export default defineNuxtConfig({
       // { code: 'en', iso: 'en-US', name: 'English', file: 'en.json' } // stage II
     ],
     defaultLocale: 'pl',
-    langDir: 'locales/',
-
-    // Page filenames are in English; URLs stay Polish for local SEO/UX.
-    customRoutes: 'config',
-    pages: {
-      about: { pl: '/o-studio' },
-      offer: { pl: '/oferta' },
-      booking: { pl: '/zapisy' },
-      reviews: { pl: '/opinie' },
-      partners: { pl: '/wspolpraca' },
-      contact: { pl: '/kontakt' }
-    }
+    langDir: 'locales/'
+    // Route mapping for the full site (about/offer/booking/reviews/partners/contact)
+    // lives on master — this branch only ships the coming-soon page.
   }
 })

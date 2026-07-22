@@ -1,4 +1,4 @@
-# Affueria — strona internetowa studia pilates
+# Soft Loft — strona internetowa studia pilates
 
 ## Klientka i kontekst
 Joanna Rzepka, studio pilates na reformerach, Kraków (Prądnik Biały, ul. Glogera 21).
