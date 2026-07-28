@@ -2,17 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
-  Design tokens — Soft Loft.
-  Colors as CSS variables so swapping the palette is a one-line change.
-*/
 :root {
   --color-bg: #ffffff;
   --color-header: #1a1a1a;
   --color-footer: #000000;
   --color-footer-text: #ffffff;
-
-  /* Gold extracted from the client's logo (public/images/logo.png) */
   --color-accent: #bc8b34;
   --color-accent-text: #1a1a1a;
 }

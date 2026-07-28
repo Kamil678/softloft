@@ -5,6 +5,12 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxt/image'],
   css: ['~/assets/css/main.css'],
 
+  app: {
+    head: {
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    }
+  },
+
   // Stage I: PL only. Structure is ready to add EN in stage II without rebuilding routing.
   i18n: {
     locales: [
