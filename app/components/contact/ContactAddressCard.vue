@@ -21,5 +21,6 @@ import { IconMapPin } from "@tabler/icons-vue";
 const { tm, rt } = useI18n();
 const addressLines = computed(() => (tm("contact.addressLines") as any[]).map((line) => rt(line)));
 
-const directionsUrl = "https://www.google.com/maps/search/?api=1&query=ul.+Zygmunta+Glogera+21%2C+31-222+Krak%C3%B3w";
+const { public: publicConfig } = useRuntimeConfig();
+const directionsUrl = publicConfig.directionsUrl as string;
 </script>

@@ -38,18 +38,22 @@
         <div class="flex flex-col items-center sm:items-start">
           <p class="text-sm font-semibold tracking-[0.2em] text-footer-text/50 uppercase">{{ $t("footer.contact") }}</p>
           <div class="mt-5 flex flex-col items-center gap-3 text-sm text-footer-text/70 sm:items-start">
-            <a href="tel:+48506448383" class="flex items-center gap-2.5 text-sm transition-colors hover:text-accent-hover">
+            <a :href="phoneHref" class="flex items-center gap-2.5 text-sm transition-colors hover:text-accent-hover">
               <IconPhone :size="16" :stroke-width="1.6" class="shrink-0 text-accent" />
-              <span>{{ $t("contact.phone") }}</span>
+              <span>{{ phone }}</span>
+            </a>
+            <a :href="emailHref" class="flex items-center gap-2.5 text-sm transition-colors hover:text-accent-hover">
+              <IconMail :size="16" :stroke-width="1.6" class="shrink-0 text-accent" />
+              <span>{{ email }}</span>
             </a>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=ul.+Zygmunta+Glogera+21%2C+31-222+Krak%C3%B3w"
+              :href="directionsUrl"
               target="_blank"
               rel="noopener noreferrer"
               class="flex items-start gap-2.5 text-sm transition-colors hover:text-accent-hover"
             >
               <IconMapPin :size="16" :stroke-width="1.6" class="mt-0.5 shrink-0 text-accent" />
-              <span>{{ $t("contact.address") }}</span>
+              <span>{{ address }}</span>
             </a>
           </div>
         </div>
@@ -78,7 +82,7 @@
 </template>
 
 <script setup lang="ts">
-import { IconBrandFacebook, IconBrandInstagram, IconChevronUp, IconMapPin, IconPhone } from "@tabler/icons-vue";
+import { IconBrandFacebook, IconBrandInstagram, IconChevronUp, IconMail, IconMapPin, IconPhone } from "@tabler/icons-vue";
 import AppButton from "../ui/AppButton.vue";
 
 const { t } = useI18n();
@@ -87,6 +91,12 @@ const { public: publicConfig } = useRuntimeConfig();
 
 const instagramUrl = publicConfig.instagramUrl as string;
 const facebookUrl = publicConfig.facebookUrl as string;
+const phone = publicConfig.phone as string;
+const phoneHref = publicConfig.phoneHref as string;
+const email = publicConfig.email as string;
+const emailHref = publicConfig.emailHref as string;
+const address = publicConfig.address as string;
+const directionsUrl = publicConfig.directionsUrl as string;
 
 const year = new Date().getFullYear();
 

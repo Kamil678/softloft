@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "Strona główna",
+    "home": "Start",
     "about": "O studio",
     "offer": "Oferta",
     "booking": "Zapisy",
@@ -136,17 +136,12 @@
     "subtitle": "Odwiedź Soft Loft i poczuj różnicę od progu. Zadzwoń, napisz lub wpadnij do naszego kameralnego studia na Białym Prądniku w sercu Krakowa.",
     "ctaTitle": "Umów pierwszy trening",
     "ctaText": "Rezerwacja zajmuje mniej niż minutę — wybierz dogodny termin w Fitssey.",
-    "callNow": "Zadzwoń teraz",
     "addressTitle": "Adres",
     "addressLines": ["Soft Loft — Pilates Reformer Studio", "ul. Glogera 21", "31-222 Kraków", "Prądnik Biały"],
-    "address": "ul. Zygmunta Glogera 21, 31-222 Kraków",
     "contactTitle": "Dane kontaktowe",
-    "phone": "506 448 383",
     "hoursTitle": "Godziny otwarcia",
     "hoursValue": "Popołudniami ok. 17:00–20:00",
     "hoursNote": "Poranne godziny do potwierdzenia. W godzinach otwarcia można też zadzwonić.",
-    "directions": "Wyznacz trasę",
-    "follow": "Śledź nas",
     "parkingTitle": "Parking i okolica",
     "parkingText": "Dla naszych klientów dostępny jest bezpłatny parking bezpośrednio przed budynkiem studia. W przypadku braku miejsc, polecamy skorzystanie z przestronnego parkingu przy pobliskim supermarkecie, który jest w pełni daromwy (1 minuta spacerem)."
   }

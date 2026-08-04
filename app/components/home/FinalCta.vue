@@ -32,11 +32,19 @@
           <defs>
             <path id="final-cta-badge-path" fill="none" d="M 100,100 m -92,0 a 92,92 0 1,1 184,0 a 92,92 0 1,1 -184,0" />
           </defs>
-          <circle cx="100" cy="100" r="92" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="1 7" stroke-linecap="round" />
+          <circle
+            cx="100"
+            cy="100"
+            r="92"
+            fill="none"
+            stroke="currentColor"
+            stroke-opacity="0.35"
+            stroke-width="1"
+            stroke-dasharray="1 7"
+            stroke-linecap="round"
+          />
           <text font-size="13" font-weight="600" letter-spacing="3.5" fill="currentColor">
-            <textPath href="#final-cta-badge-path" startOffset="0%">
-              ZAREZERWUJ TERAZ &#8226; DOŁĄCZ DO NAS &#8226;
-            </textPath>
+            <textPath href="#final-cta-badge-path" startOffset="0%"> ZAREZERWUJ TERAZ &#8226; DOŁĄCZ DO NAS &#8226; </textPath>
           </text>
         </svg>
         <span
@@ -51,7 +59,7 @@
 
 <script setup lang="ts">
 import { IconArrowUpRight } from "@tabler/icons-vue";
-import AppButton from "./ui/AppButton.vue";
+import AppButton from "../ui/AppButton.vue";
 
 defineProps<{
   title: string;

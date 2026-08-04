@@ -42,14 +42,14 @@
     <div
       v-if="menuOpen"
       id="mobile-nav"
-      class="fixed inset-x-0 top-[61px] bottom-0 z-40 flex flex-col overflow-y-auto bg-header px-6 py-8 lg:hidden"
+      class="fixed inset-x-0 top-[88px] bottom-0 z-40 flex flex-col overflow-y-auto bg-header px-6 py-8 lg:hidden"
     >
       <nav class="flex flex-col gap-6">
         <NuxtLink
           v-for="link in links"
           :key="link.to"
           :to="link.to"
-          class="flex items-center gap-2 font-heading text-2xl font-medium transition-colors hover:text-accent"
+          class="flex items-center gap-2 text-2xl font-medium transition-colors hover:text-accent"
           :class="isActive(link.to) ? 'text-accent' : 'text-header-text'"
           @click="closeMenu"
         >

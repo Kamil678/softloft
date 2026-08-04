@@ -20,7 +20,7 @@
 
     <section class="mx-auto max-w-7xl px-4 mt-8 sm:px-6">
       <div class="h-[340px] overflow-hidden rounded-2xl border border-border shadow-lg sm:h-[420px]">
-        <ContactMap address="ul. Zygmunta Glogera 21, 31-222 Kraków" />
+        <ContactMap :address="address" />
       </div>
     </section>
 
@@ -47,4 +47,7 @@ useHead({
   title: "Kontakt — Soft Loft",
   meta: [{ name: "description", content: "Kontakt i adres studia Soft Loft — Pilates Reformer Studio, ul. Glogera 21, Kraków." }],
 });
+
+const { public: publicConfig } = useRuntimeConfig();
+const address = publicConfig.address as string;
 </script>

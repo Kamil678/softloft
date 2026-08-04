@@ -4,10 +4,8 @@
       <IconPhone :size="28" stroke-width="1.75" />
     </span>
     <p class="mt-4 text-lg font-medium text-text">{{ $t("contact.contactTitle") }}</p>
-    <a href="mailto:soft.loft.pilates@gmail.com" class="mt-2 block text-sm text-text-muted transition-colors hover:text-accent"
-      >soft.loft.pilates@gmail.com</a
-    >
-    <a href="tel:+48506448383" class="mt-1 block text-sm text-text-muted transition-colors hover:text-accent">{{ $t("contact.phone") }}</a>
+    <a :href="emailHref" class="mt-2 block text-sm text-text-muted transition-colors hover:text-accent">{{ email }}</a>
+    <a :href="phoneHref" class="mt-1 block text-sm text-text-muted transition-colors hover:text-accent">{{ phone }}</a>
     <div class="mt-4 flex items-center gap-3">
       <a
         :href="instagramUrl"
@@ -37,4 +35,8 @@ import { IconBrandFacebook, IconBrandInstagram, IconPhone } from "@tabler/icons-
 const { public: publicConfig } = useRuntimeConfig();
 const instagramUrl = publicConfig.instagramUrl as string;
 const facebookUrl = publicConfig.facebookUrl as string;
+const phone = publicConfig.phone as string;
+const phoneHref = publicConfig.phoneHref as string;
+const email = publicConfig.email as string;
+const emailHref = publicConfig.emailHref as string;
 </script>

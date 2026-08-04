@@ -45,7 +45,7 @@
 </template>
 
 <script setup lang="ts">
-import AppButton from "./ui/AppButton.vue";
+import AppButton from "../ui/AppButton.vue";
 
 defineProps<{
   eyebrow?: string;
