@@ -1,2 +1,153 @@
 {
+  "nav": {
+    "home": "Strona główna",
+    "about": "O studio",
+    "offer": "Oferta",
+    "booking": "Zapisy",
+    "reviews": "Opinie",
+    "partners": "Współpraca",
+    "contact": "Kontakt",
+    "cta": "Zarezerwuj zajęcia",
+    "menuOpen": "Otwórz menu",
+    "menuClose": "Zamknij menu"
+  },
+  "footer": {
+    "tagline": "Soft Loft – Twoja strefa precyzji, siły i harmonii. Buduj siłę, rzeźb ciało i poprawiaj mobilność na reformerze. Bez nudy, w swoim tempie.",
+    "quickLinks": "Nawigacja",
+    "contact": "Kontakt",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "credit": "Realizacja:",
+    "backToTop": "Powrót do góry"
+  },
+  "home": {
+    "heroEyebrow": "Soft Loft Pilates Reformer Studio",
+    "heroTitle": "Precyzja ruchu.\nEstetyka wnętrza.\nRóżnica, którą poczujesz.",
+    "heroSubtitle": "Odkryj Soft Loft – kameralne Pilates Reformer Studio na Białym Prądniku w Krakowie, gdzie minimalistyczny i loftowy design łączy się z najbardziej efektywnym treningiem całego ciała.",
+    "heroCta": "Zarezerwuj swój pierwszy trening",
+    "usp": {
+      "title": "Dlaczego Soft Loft",
+      "items": [
+        {
+          "title": "Kameralne grupy",
+          "text": "Maksymalnie 10 osób na zajęciach oraz formuła priv i duo."
+        },
+        {
+          "title": "Precyzja ruchu",
+          "text": "Instruktorzy dbają o każdy detal techniki, bez pośpiechu."
+        },
+        {
+          "title": "Loftowa estetyka",
+          "text": "Wnętrze zaprojektowane tak, by odciąć się od miejskiego zgiełku."
+        }
+      ]
+    },
+    "aboutTeaser": {
+      "eyebrow": "Filozofia Soft Loft",
+      "title": "Kameralna atmosfera, maksymalna precyzja",
+      "text": "Wierzymy, że otoczenie ma kluczowy wpływ na jakość Twojego treningu. Nasze studio zostało zaprojektowane jako azyl od miejskiego zgiełku. Na Białym Prądniku stworzyliśmy przestrzeń, która oddycha.",
+      "items": [
+        "Maksymalnie 10 osób na sali dla pełnego komfortu",
+        "Indywidualne podejście w sesjach Private oraz Duo",
+        "Najwyższej klasy sprzęt Reformer i loftowy design"
+      ]
+    },
+    "quote": "Reformer pilates zdefiniowany na nowo. Poczuj jakość Soft Loft.",
+    "bookingTeaser": {
+      "title": "Gotowa na pierwszy trening?",
+      "text": "Zarezerwuj miejsce w kilka sekund przez Fitssey.",
+      "cta": "Przejdź do zapisów"
+    },
+    "faqTeaser": {
+      "eyebrow": "Warto wiedzieć",
+      "title": "Przewodnik po Soft Loft",
+      "subtitle": "Odpowiedzi na pytania, które najczęściej pojawiają się przed pierwszym treningiem na reformerze.",
+      "cta": "Zobacz więcej pytań"
+    },
+    "finalCta": {
+      "title": "Rozpocznij swoją przygodę z pilatesem",
+      "subtitle": "Dostęp do rezerwacji online 24/7. Wybierz dogodny termin i dołącz do kameralnych zajęć w sercu Białego Prądnika.",
+      "primaryCta": "Harmonogram zajęć",
+      "secondaryCta": "Cennik usług"
+    }
+  },
+  "about": {
+    "eyebrow": "O studio",
+    "title": "Poznaj Soft Loft",
+    "body": "Poznaj Soft Loft – miejsce, w którym pasja do precyzyjnego ruchu spotyka miłość do minimalistycznego designu. Miejsce, które od progu pozwala odciąć się od miejskiego zgiełku. Biel, czerń, grafit i subtelne złote akcenty tworzą tło dla tego, co najważniejsze – Twojego ciała, siły i harmonii. W Soft Loft stawiamy na jakość, a nie na ilość, dlatego nasze sesje odbywają się w kameralnych grupach max 10 osób oraz w formule priv i duo. Niezależnie od tego, czy dopiero zaczynasz przygodę z pilatesem, czy chcesz wznieść swój trening na wyższy poziom – nasi instruktorzy zadbają o każdy Twój ruch z zegarmistrzowską precyzją.",
+    "instructors": {
+      "eyebrow": "Zespół",
+      "title": "Instruktorzy",
+      "searchingTitle": "Kompletujemy zespół instruktorów",
+      "searchingText": "Soft Loft szuka doświadczonych instruktorów pilates reformer. Wkrótce przedstawimy tu naszą kadrę.",
+      "afterHours": "Po godzinach"
+    },
+    "faq": {
+      "eyebrow": "Warto wiedzieć",
+      "title": "Najczęstsze pytania"
+    }
+  },
+  "offer": {
+    "eyebrow": "Oferta",
+    "title": "Zajęcia i cennik",
+    "subtitle": "Kameralne sesje na reformerach, dopasowane do Twojego poziomu i tempa.",
+    "classes": [
+      {
+        "name": "Zajęcia grupowe",
+        "description": "Sesje w kameralnych grupach do 10 osób, dopasowane do poziomu uczestników.",
+        "details": "Sprężyny reformera dobierane indywidualnie do kondycji i możliwości każdej osoby. Zajęcia prowadzone są w spokojnym tempie, z naciskiem na technikę i bezpieczeństwo ruchu."
+      },
+      {
+        "name": "Duo",
+        "description": "Trening we dwoje – więcej uwagi instruktora, ten sam efekt.",
+        "details": "Idealne rozwiązanie dla par, przyjaciół lub osób, które wolą trenować w mniejszym gronie z większą ilością wskazówek indywidualnych."
+      },
+      {
+        "name": "Priv",
+        "description": "Trening indywidualny w pełni dopasowany do Twoich celów.",
+        "details": "Program ułożony pod Twoje potrzeby – rekonwalescencja, przygotowanie sportowe lub po prostu maksimum uwagi instruktora."
+      }
+    ],
+    "pricing": {
+      "title": "Cennik",
+      "note": "Cennik studia jest w trakcie ustalania — poniższe widełki to orientacyjne ceny rynkowe."
+    }
+  },
+  "booking": {
+    "eyebrow": "Zapisy",
+    "title": "Zarezerwuj zajęcia",
+    "subtitle": "Zapisy odbywają się wyłącznie online, przez aplikację Fitssey – rezerwujesz i odwołujesz trening dwoma kliknięciami.",
+    "cta": "Otwórz Fitssey",
+    "pending": "Grafik zajęć pojawi się tutaj, gdy tylko dostęp do Fitssey zostanie uruchomiony."
+  },
+  "reviews": {
+    "eyebrow": "Opinie",
+    "title": "Co mówią nasi klienci",
+    "subtitle": "Prezentujemy do 5 najnowszych opinii z Google.",
+    "empty": "Studio otwiera się w 2026 roku — pierwsze opinie pojawią się tutaj wkrótce po starcie zajęć."
+  },
+  "partners": {
+    "eyebrow": "Współpraca",
+    "title": "Nasi partnerzy",
+    "subtitle": "Firmy i osoby, z którymi tworzymy Soft Loft."
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Odwiedź nas",
+    "subtitle": "Odwiedź Soft Loft i poczuj różnicę od progu. Zadzwoń, napisz lub wpadnij do naszego kameralnego studia na Białym Prądniku w sercu Krakowa.",
+    "ctaTitle": "Umów pierwszy trening",
+    "ctaText": "Rezerwacja zajmuje mniej niż minutę — wybierz dogodny termin w Fitssey.",
+    "callNow": "Zadzwoń teraz",
+    "addressTitle": "Adres",
+    "addressLines": ["Soft Loft — Pilates Reformer Studio", "ul. Glogera 21", "31-222 Kraków", "Prądnik Biały"],
+    "address": "ul. Zygmunta Glogera 21, 31-222 Kraków",
+    "contactTitle": "Dane kontaktowe",
+    "phone": "506 448 383",
+    "hoursTitle": "Godziny otwarcia",
+    "hoursValue": "Popołudniami ok. 17:00–20:00",
+    "hoursNote": "Poranne godziny do potwierdzenia. W godzinach otwarcia można też zadzwonić.",
+    "directions": "Wyznacz trasę",
+    "follow": "Śledź nas",
+    "parkingTitle": "Parking i okolica",
+    "parkingText": "Dla naszych klientów dostępny jest bezpłatny parking bezpośrednio przed budynkiem studia. W przypadku braku miejsc, polecamy skorzystanie z przestronnego parkingu przy pobliskim supermarkecie, który jest w pełni daromwy (1 minuta spacerem)."
+  }
 }

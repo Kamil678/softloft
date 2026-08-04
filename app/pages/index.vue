@@ -1,63 +1,126 @@
 <template>
-  <div class="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-bg px-6 py-16 sm:px-10">
-    <div class="glow pointer-events-none absolute inset-0" />
+  <div>
+    <Hero
+      :eyebrow="$t('home.heroEyebrow')"
+      :title="$t('home.heroTitle')"
+      :subtitle="$t('home.heroSubtitle')"
+      :cta-label="$t('home.heroCta')"
+      :cta-href="fitsseyUrl"
+      image="/images/1784871507821.png"
+      image-alt="Loftowe wnętrze studia pilates z reformerami"
+    />
 
-    <div class="relative flex w-full max-w-xl flex-col items-center text-center">
-      <AppLogo class="drop-shadow-sm" />
-
-      <p class="mt-4 text-[0.7rem] font-medium tracking-[0.4em] text-accent uppercase sm:text-xs">
-        Już wkrótce
-      </p>
-
-      <h1 class="mt-8 text-[clamp(1.6rem,4.5vw,2.5rem)] leading-tight font-medium text-header text-balance">
-        Soft Loft Pilates Reformer Studio na Białym Prądniku w Krakowie
-      </h1>
-
-      <p class="mt-3 text-sm text-header/50">Przygotowujemy nowe studio i stronę - zajrzyj tu wkrótce.</p>
-
-      <div class="mt-8 flex flex-col items-center gap-3 text-sm text-header/70">
-        <a href="tel:+48506448383" class="flex items-center gap-2 font-medium tracking-wide text-header transition-colors hover:text-accent">
-          <svg viewBox="0 0 24 24" fill="none" class="h-4 w-4 text-accent" aria-hidden="true">
-            <path
-              d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.7c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8Z"
-              fill="currentColor"
-            />
-          </svg>
-          506 448 383
-        </a>
-        <a
-          href="https://www.google.com/maps/search/?api=1&query=ul.+Zygmunta+Glogera+21%2C+31-222+Krak%C3%B3w"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="flex items-center gap-2 font-medium tracking-wide text-header transition-colors hover:text-accent"
-        >
-          <svg viewBox="0 0 24 24" fill="none" class="h-4 w-4 shrink-0 text-accent" aria-hidden="true">
-            <path
-              d="M12 2c-4.1 0-7.5 3.4-7.5 7.5 0 5.6 6.6 12 6.9 12.3.3.3.9.3 1.2 0 .3-.3 6.9-6.7 6.9-12.3C19.5 5.4 16.1 2 12 2Zm0 10.2a2.7 2.7 0 1 1 0-5.4 2.7 2.7 0 0 1 0 5.4Z"
-              fill="currentColor"
-            />
-          </svg>
-          ul. Zygmunta Glogera 21, 31-222 Kraków
-        </a>
+    <!-- <section class="mx-auto max-w-6xl px-6 py-16 sm:px-10 sm:py-20">
+      <SectionHeading :title="$t('home.usp.title')" align="center" class="mx-auto" />
+      <div class="mt-10 grid gap-6 sm:grid-cols-3">
+        <Card v-for="item in uspItems" :key="item.title" variant="surface" class="text-center">
+          <p class="font-heading text-lg font-medium text-text">{{ item.title }}</p>
+          <p class="mt-2 text-sm leading-relaxed text-text-muted">{{ item.text }}</p>
+        </Card>
       </div>
-    </div>
+    </section> -->
+
+    <section class="max-w-7xl mx-auto px-4 py-16 sm:py-20 sm:px-6">
+      <div class="mx-auto grid items-center gap-8 sm:grid-cols-2 sm:gap-10 lg:gap-16">
+        <div class="aspect-[4/5] overflow-hidden rounded-xl shadow-lg">
+          <img
+            src="/images/pilates-na-reformerze.jpg"
+            alt="Wnętrze studia Soft Loft z reformerem pilates"
+            class="h-full w-full object-cover"
+            loading="lazy"
+          />
+        </div>
+        <div>
+          <SectionHeading
+            :eyebrow="$t('home.aboutTeaser.eyebrow')"
+            :title="$t('home.aboutTeaser.title')"
+            :subtitle="$t('home.aboutTeaser.text')"
+            align="left"
+          />
+          <ul class="mt-6 flex flex-col gap-3">
+            <li v-for="item in aboutTeaserItems" :key="item" class="flex items-start gap-3">
+              <IconCircleCheck class="mt-0.5 h-5 w-5 shrink-0 text-accent" stroke-width="1.75" aria-hidden="true" />
+              <span class="text-sm leading-relaxed text-text sm:text-base">{{ item }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-surface px-6 py-16 sm:px-10 sm:py-24">
+      <div class="mx-auto max-w-6xl">
+        <SectionHeading
+          :eyebrow="$t('home.faqTeaser.eyebrow')"
+          :title="$t('home.faqTeaser.title')"
+          align="center"
+          class="mx-auto text-center"
+        />
+        <div class="mt-12 grid gap-6 sm:grid-cols-3">
+          <div
+            v-for="(item, index) in faqTeaserItems"
+            :key="item.question"
+            class="rounded-2xl bg-bg p-8 shadow-sm ring-1 ring-border transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+          >
+            <span
+              class="inline-flex h-9 w-9 items-center justify-center rounded-full bg-accent font-heading text-sm font-semibold text-accent-text"
+            >
+              {{ index + 1 }}
+            </span>
+            <p class="mt-5 font-heading text-lg font-medium text-text">{{ item.question }}</p>
+            <p class="mt-3 text-sm leading-relaxed text-text-muted">{{ item.answer }}</p>
+          </div>
+        </div>
+        <div class="mt-12 text-center">
+          <AppButton to="/o-studio" variant="outline">
+            {{ $t("home.faqTeaser.cta") }}
+          </AppButton>
+        </div>
+      </div>
+    </section>
+
+    <FinalCta
+      :title="$t('home.finalCta.title')"
+      :subtitle="$t('home.finalCta.subtitle')"
+      :primary-label="$t('home.finalCta.primaryCta')"
+      primary-href="/zapisy"
+      :secondary-label="$t('home.finalCta.secondaryCta')"
+      secondary-href="/oferta#cennik"
+    />
   </div>
 </template>
 
 <script setup lang="ts">
+import { IconCircleCheck } from "@tabler/icons-vue";
+import AppButton from "~/components/ui/AppButton.vue";
+import Card from "~/components/ui/Card.vue";
+import SectionHeading from "~/components/ui/SectionHeading.vue";
+import faqData from "~/data/faq.json";
+
+const { tm, rt } = useI18n();
+const { public: publicConfig } = useRuntimeConfig();
+const fitsseyUrl = publicConfig.fitsseyUrl as string;
+
+const promoOpen = ref(false);
+
+const uspItems = computed(() =>
+  (tm("home.usp.items") as Array<{ title: string; text: string }>).map((item) => ({
+    title: rt(item.title),
+    text: rt(item.text),
+  })),
+);
+
+const aboutTeaserItems = computed(() => (tm("home.aboutTeaser.items") as string[]).map((item) => rt(item)));
+
+const faqTeaserItems = faqData.slice(0, 3);
+
 useHead({
-  title: 'Soft Loft - studio pilates | już wkrótce',
+  title: "Soft Loft — Pilates Reformer Studio w Krakowie",
   meta: [
     {
-      name: 'description',
-      content: 'Soft Loft - studio pilates na reformerach w Krakowie. Strona już wkrótce, zadzwoń i zarezerwuj miejsce.'
-    }
-  ]
-})
+      name: "description",
+      content:
+        "Soft Loft — kameralne Pilates Reformer Studio na Białym Prądniku w Krakowie. Precyzja ruchu, loftowy design, treningi na reformerach.",
+    },
+  ],
+});
 </script>
-
-<style scoped>
-.glow {
-  background: radial-gradient(60% 50% at 50% 25%, color-mix(in srgb, var(--color-accent) 12%, transparent), transparent 70%);
-}
-</style>
