@@ -1,6 +1,6 @@
 <template>
   <div :class="['flex flex-col', align === 'center' ? 'items-center text-center' : 'items-start text-left']">
-    <p v-if="eyebrow" class="text-xs font-semibold tracking-[0.3em] text-accent uppercase">
+    <p v-if="eyebrow" class="text-xs font-semibold tracking-[0.3em] text-accent-strong uppercase">
       {{ eyebrow }}
     </p>
     <h2

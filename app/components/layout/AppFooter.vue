@@ -106,7 +106,7 @@ const navLinks = computed(() => [
   { to: "/oferta", label: t("nav.offer") },
   { to: "/zapisy", label: t("nav.booking") },
   { to: "/opinie", label: t("nav.reviews") },
-  { to: "/wspolpraca", label: t("nav.partners") },
+  { to: "/wspolprace", label: t("nav.partners") },
   { to: "/kontakt", label: t("nav.contact") },
 ]);
 

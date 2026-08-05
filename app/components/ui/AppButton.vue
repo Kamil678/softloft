@@ -14,6 +14,8 @@
 </template>
 
 <script setup lang="ts">
+import { NuxtLink } from "#components";
+
 const props = withDefaults(
   defineProps<{
     variant?: "primary" | "secondary" | "ghost" | "outline";
@@ -24,7 +26,7 @@ const props = withDefaults(
   { variant: "primary" },
 );
 
-const tag = computed(() => (props.href ? "a" : props.to ? "NuxtLink" : "button"));
+const tag = computed(() => (props.href ? "a" : props.to ? NuxtLink : "button"));
 
 const variantClasses = computed(() => {
   switch (props.variant) {

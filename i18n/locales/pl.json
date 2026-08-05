@@ -5,7 +5,7 @@
     "offer": "Oferta",
     "booking": "Zapisy",
     "reviews": "Opinie",
-    "partners": "Współpraca",
+    "partners": "Współprace",
     "contact": "Kontakt",
     "cta": "Zarezerwuj zajęcia",
     "menuOpen": "Otwórz menu",
@@ -126,14 +126,19 @@
     "empty": "Studio otwiera się w 2026 roku — pierwsze opinie pojawią się tutaj wkrótce po starcie zajęć."
   },
   "partners": {
-    "eyebrow": "Współpraca",
+    "eyebrow": "Współprace",
     "title": "Nasi partnerzy",
-    "subtitle": "Firmy i osoby, z którymi tworzymy Soft Loft."
+    "subtitle": "Firmy i osoby, z którymi tworzymy Soft Loft.",
+    "ctaEyebrow": "Dołącz do nas",
+    "ctaTitle": "Zostań naszym partnerem",
+    "ctaText": "Szukamy marek i miejsc, które – podobnie jak my – stawiają na jakość, a nie ilość. Jeśli widzisz przestrzeń do wspólnego projektu, napisz do nas.",
+    "ctaButton": "Skontaktuj się"
   },
   "contact": {
     "eyebrow": "Kontakt",
     "title": "Odwiedź nas",
     "subtitle": "Odwiedź Soft Loft i poczuj różnicę od progu. Zadzwoń, napisz lub wpadnij do naszego kameralnego studia na Białym Prądniku w sercu Krakowa.",
+    "ctaEyebrow": "Zapisy online",
     "ctaTitle": "Umów pierwszy trening",
     "ctaText": "Rezerwacja zajmuje mniej niż minutę — wybierz dogodny termin w Fitssey.",
     "addressTitle": "Adres",

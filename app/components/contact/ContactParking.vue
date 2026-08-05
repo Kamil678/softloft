@@ -4,7 +4,7 @@
       <IconParking :size="28" stroke-width="1.75" />
     </span>
     <div>
-      <p class="text-xs font-semibold tracking-[0.15em] text-accent uppercase">{{ $t("contact.parkingTitle") }}</p>
+      <p class="text-xs font-semibold tracking-[0.15em] text-accent-strong uppercase">{{ $t("contact.parkingTitle") }}</p>
       <p class="mt-1.5 text-sm leading-relaxed text-text-muted">{{ $t("contact.parkingText") }}</p>
     </div>
   </div>

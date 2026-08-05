@@ -11,6 +11,7 @@ export default <Partial<Config>>{
         'footer-text': 'var(--color-footer-text)',
         accent: 'var(--color-accent)',
         'accent-hover': 'var(--color-accent-hover)',
+        'accent-strong': 'var(--color-accent-strong)',
         'accent-text': 'var(--color-accent-text)',
         text: 'var(--color-text)',
         'text-muted': 'var(--color-text-muted)',

@@ -6,10 +6,11 @@
   --color-bg: #ffffff;
   --color-header: #1a1a1a;
   --color-header-text: #ffffff;
-  --color-footer: #000000;
+  --color-footer: #1a1a1a;
   --color-footer-text: #ffffff;
   --color-accent: #bc8b34;
   --color-accent-hover: #a97a2b;
+  --color-accent-strong: #8c6727;
   --color-accent-text: #1a1a1a;
   --color-text: #1a1a1a;
   --color-text-muted: #6b6b6b;
