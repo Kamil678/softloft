@@ -65,7 +65,7 @@
     },
     "finalCta": {
       "title": "Rozpocznij swoją przygodę z pilatesem",
-      "subtitle": "Dostęp do rezerwacji online 24/7. Wybierz dogodny termin i dołącz do kameralnych zajęć w sercu Białego Prądnika.",
+      "subtitle": "Dostęp do rezerwacji online 24/7. Wybierz dogodny termin i przyjdź do nas.",
       "primaryCta": "Harmonogram zajęć",
       "secondaryCta": "Cennik usług"
     }
@@ -137,7 +137,7 @@
   "contact": {
     "eyebrow": "Kontakt",
     "title": "Odwiedź nas",
-    "subtitle": "Odwiedź Soft Loft i poczuj różnicę od progu. Zadzwoń, napisz lub wpadnij do naszego kameralnego studia na Białym Prądniku w sercu Krakowa.",
+    "subtitle": "Odwiedź Soft Loft i poczuj różnicę od progu. Zadzwoń, napisz lub wpadnij do naszego kameralnego studia w Krakowie.",
     "ctaEyebrow": "Zapisy online",
     "ctaTitle": "Umów pierwszy trening",
     "ctaText": "Rezerwacja zajmuje mniej niż minutę - wybierz dogodny termin w Fitssey.",
@@ -148,6 +148,6 @@
     "hoursValue": "Popołudniami ok. 17:00–20:00",
     "hoursNote": "Poranne godziny do potwierdzenia. W godzinach otwarcia można też zadzwonić.",
     "parkingTitle": "Parking i okolica",
-    "parkingText": "Dla naszych klientów dostępny jest bezpłatny parking bezpośrednio przed budynkiem studia. W przypadku braku miejsc, polecamy skorzystanie z przestronnego parkingu przy pobliskim supermarkecie, który jest w pełni daromwy (1 minuta spacerem)."
+    "parkingText": "Dla naszych klientów dostępny jest bezpłatny parking bezpośrednio przed budynkiem studia. W przypadku braku miejsc, polecamy skorzystanie z przestronnego parkingu przy pobliskich supermarketach (1 minuta spacerem)."
   }
 }

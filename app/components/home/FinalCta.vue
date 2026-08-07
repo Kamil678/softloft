@@ -30,12 +30,12 @@
       >
         <svg viewBox="0 0 200 200" class="h-full w-full text-accent transition-transform duration-500 ease-out group-hover:rotate-[20deg]">
           <defs>
-            <path id="final-cta-badge-path" fill="none" d="M 100,100 m -92,0 a 92,92 0 1,1 184,0 a 92,92 0 1,1 -184,0" />
+            <path id="final-cta-badge-path" fill="none" d="M 100,100 m -84,0 a 84,84 0 1,1 168,0 a 84,84 0 1,1 -168,0" />
           </defs>
           <circle
             cx="100"
             cy="100"
-            r="92"
+            r="84"
             fill="none"
             stroke="currentColor"
             stroke-opacity="0.35"
@@ -44,7 +44,7 @@
             stroke-linecap="round"
           />
           <text font-size="13" font-weight="600" letter-spacing="3.5" fill="currentColor">
-            <textPath href="#final-cta-badge-path" startOffset="0%"> ZAREZERWUJ TERAZ &#8226; DOŁĄCZ DO NAS &#8226; </textPath>
+            <textPath href="#final-cta-badge-path" startOffset="0%">ZAREZERWUJ TERAZ &#8226; DOŁĄCZ DO NAS</textPath>
           </text>
         </svg>
         <span

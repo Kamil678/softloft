@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       fitsseyUrl: "https://www.fitssey.com/",
       instagramUrl: "https://www.instagram.com/softloft_pilates/",
       facebookUrl: "https://www.facebook.com/SoftLoftpilates",
-      phone: "506 448 383",
+      phone: "506 44 83 83",
       phoneHref: "tel:+48506448383",
       email: "soft.loft.pilates@gmail.com",
       emailHref: "mailto:soft.loft.pilates@gmail.com",
