@@ -22,6 +22,7 @@ export default defineNuxtConfig({
       emailHref: "mailto:soft.loft.pilates@gmail.com",
       address: "ul. Zygmunta Glogera 21, 31-222 Kraków",
       directionsUrl: "https://www.google.com/maps/search/?api=1&query=ul.+Zygmunta+Glogera+21%2C+31-222+Krak%C3%B3w",
+      googleReviewsUrl: "https://g.page/r/CQm40TIyroUaEBM/review",
     },
   },
 

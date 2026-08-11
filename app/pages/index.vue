@@ -26,7 +26,7 @@
 </template>
 
 <script setup lang="ts">
-import FinalCta from "~/components/home/FinalCta.vue";
+import FinalCta from "~/components/ui/FinalCta.vue";
 import Hero from "~/components/home/Hero.vue";
 import HomeAboutTeaser from "~/components/home/HomeAboutTeaser.vue";
 import HomeFaqTeaser from "~/components/home/HomeFaqTeaser.vue";

@@ -9,8 +9,8 @@
         aria-modal="true"
         :aria-labelledby="title ? titleId : undefined"
         tabindex="-1"
-        class="relative w-full max-w-lg rounded-lg border border-border bg-bg p-6 sm:p-8"
-        @keydown.esc="close"
+        class="relative w-full max-w-lg rounded-2xl border border-border bg-bg p-6 sm:p-8"
+        @keydown="handleKeydown"
       >
         <button
           type="button"
@@ -41,9 +41,41 @@ const emit = defineEmits<{ 'update:modelValue': [boolean] }>()
 
 const panelRef = ref<HTMLElement | null>(null)
 const titleId = `modal-title-${Math.random().toString(36).slice(2, 9)}`
+let previouslyFocused: HTMLElement | null = null
 
 function close() {
   emit('update:modelValue', false)
+}
+
+function getFocusable(): HTMLElement[] {
+  if (!panelRef.value) return []
+  return Array.from(
+    panelRef.value.querySelectorAll<HTMLElement>(
+      'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
+    )
+  )
+}
+
+function handleKeydown(event: KeyboardEvent) {
+  if (event.key === 'Escape') {
+    close()
+    return
+  }
+  if (event.key !== 'Tab') return
+
+  const focusable = getFocusable()
+  if (!focusable.length) return
+
+  const first = focusable[0]!
+  const last = focusable[focusable.length - 1]!
+
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault()
+    last.focus()
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault()
+    first.focus()
+  }
 }
 
 watch(
@@ -51,8 +83,11 @@ watch(
   async (open) => {
     document.body.style.overflow = open ? 'hidden' : ''
     if (open) {
+      previouslyFocused = document.activeElement as HTMLElement
       await nextTick()
       panelRef.value?.focus()
+    } else {
+      previouslyFocused?.focus()
     }
   }
 )

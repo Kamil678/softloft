@@ -90,26 +90,28 @@
     "eyebrow": "Oferta",
     "title": "Zajęcia i cennik",
     "subtitle": "Kameralne sesje na reformerach, dopasowane do Twojego poziomu i tempa.",
-    "classes": [
-      {
-        "name": "Zajęcia grupowe",
-        "description": "Sesje w kameralnych grupach do 10 osób, dopasowane do poziomu uczestników.",
-        "details": "Sprężyny reformera dobierane indywidualnie do kondycji i możliwości każdej osoby. Zajęcia prowadzone są w spokojnym tempie, z naciskiem na technikę i bezpieczeństwo ruchu."
-      },
-      {
-        "name": "Duo",
-        "description": "Trening we dwoje – więcej uwagi instruktora, ten sam efekt.",
-        "details": "Idealne rozwiązanie dla par, przyjaciół lub osób, które wolą trenować w mniejszym gronie z większą ilością wskazówek indywidualnych."
-      },
-      {
-        "name": "Priv",
-        "description": "Trening indywidualny w pełni dopasowany do Twoich celów.",
-        "details": "Program ułożony pod Twoje potrzeby – rekonwalescencja, przygotowanie sportowe lub po prostu maksimum uwagi instruktora."
-      }
-    ],
-    "pricing": {
-      "title": "Cennik",
-      "note": "Cennik studia jest w trakcie ustalania — poniższe widełki to orientacyjne ceny rynkowe."
+    "classesSection": {
+      "eyebrow": "Zajęcia",
+      "title": "Wybierz swój trening",
+      "detailsCta": "Szczegóły",
+      "modalLevel": "Poziom trudności",
+      "modalForWho": "Dla kogo",
+      "modalIncludes": "Co obejmuje"
+    },
+    "pricingSection": {
+      "eyebrow": "Cennik",
+      "title": "Wejścia i karnety"
+    },
+    "faqSection": {
+      "eyebrow": "Warto wiedzieć",
+      "title": "Jak to działa",
+      "subtitle": "Odpowiedzi na pytania, które najczęściej pojawiają się przed pierwszym treningiem na reformerze."
+    },
+    "finalCta": {
+      "title": "Zobacz grafik i zarezerwuj miejsce",
+      "subtitle": "Sprawdź dostępne terminy i zarezerwuj trening online przez Fitssey w kilka sekund.",
+      "primaryCta": "Zobacz grafik zajęć",
+      "secondaryCta": "Zadaj pytanie"
     }
   },
   "booking": {
@@ -122,8 +124,11 @@
   "reviews": {
     "eyebrow": "Opinie",
     "title": "Co mówią nasi klienci",
-    "subtitle": "Prezentujemy do 5 najnowszych opinii z Google.",
-    "empty": "Studio otwiera się w 2026 roku — pierwsze opinie pojawią się tutaj wkrótce po starcie zajęć."
+    "subtitle": "Opinie klientek, które już poczuły różnicę Soft Loft.",
+    "empty": "Studio otwiera się w 2026 roku — pierwsze opinie pojawią się tutaj wkrótce po starcie zajęć.",
+    "emptyCta": "Zarezerwuj pierwszy trening",
+    "railAriaLabel": "Pozostałe opinie klientów",
+    "moreCta": "Zobacz więcej opinii na Google"
   },
   "partners": {
     "eyebrow": "Współprace",

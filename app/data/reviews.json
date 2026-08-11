@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Katarzyna M.",
+    "rating": 5,
+    "text": "Miejsce zupełnie inne niż typowa siłownia – loftowe wnętrze, spokój i pełen profesjonalizm. Kameralna grupa robi ogromną różnicę, instruktorka widzi każdy detal ruchu.",
+    "date": "2 tygodnie temu"
+  },
+  {
+    "name": "Aleksandra W.",
+    "rating": 5,
+    "text": "Reformer pilates u Joanny to zupełnie inny poziom. Czuć, że każdy trening jest dopięty na ostatni guzik, a sama przestrzeń działa relaksująco jeszcze przed zajęciami.",
+    "date": "miesiąc temu"
+  },
+  {
+    "name": "Marta K.",
+    "rating": 4,
+    "text": "Bardzo kameralnie i przyjemnie, świetna atmosfera od progu. Jedyny minus to niewiele terminów popołudniami – warto się dopchać z zapisem.",
+    "date": "3 tygodnie temu"
+  },
+  {
+    "name": "Ewa S.",
+    "rating": 5,
+    "text": "Wracam po każdym treningu z lepszą postawą i mniejszym bólem pleców. Instruktorka tłumaczy każdy ruch bardzo precyzyjnie, widać ogromne doświadczenie.",
+    "date": "5 dni temu"
+  },
+  {
+    "name": "Natalia P.",
+    "rating": 5,
+    "text": "Pierwszy raz na reformerze i totalnie się zakochałam. Kameralna grupa sprawia, że nie ma miejsca na wstyd czy pośpiech – każdy jest zaopiekowany.",
+    "date": "tydzień temu"
+  }
+]
