@@ -1,6 +1,6 @@
 <template>
   <iframe
-    title="Soft Loft — mapa"
+    title="Soft Loft - mapa"
     class="h-full w-full"
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"

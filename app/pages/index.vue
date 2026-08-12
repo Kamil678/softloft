@@ -6,7 +6,7 @@
       :subtitle="$t('home.heroSubtitle')"
       :cta-label="$t('home.heroCta')"
       :cta-href="fitsseyUrl"
-      image="/images/1784871507821.png"
+      image="/images/pilates-reformers-studio-white.png"
       image-alt="Loftowe wnętrze studia pilates z reformerami"
     />
 
@@ -35,12 +35,12 @@ const { public: publicConfig } = useRuntimeConfig();
 const fitsseyUrl = publicConfig.fitsseyUrl as string;
 
 useHead({
-  title: "Soft Loft — Pilates Reformer Studio w Krakowie",
+  title: "Soft Loft - Pilates Reformer Studio w Krakowie",
   meta: [
     {
       name: "description",
       content:
-        "Soft Loft — kameralne Pilates Reformer Studio na Białym Prądniku w Krakowie. Precyzja ruchu, loftowy design, treningi na reformerach.",
+        "Soft Loft - kameralne Pilates Reformer Studio na Białym Prądniku w Krakowie. Precyzja ruchu, loftowy design, treningi na reformerach.",
     },
   ],
 });

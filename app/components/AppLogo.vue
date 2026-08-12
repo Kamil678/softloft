@@ -1,5 +1,5 @@
 <template>
-  <img src="/images/logo.png" alt="Soft Loft — Pilates Reformer Studio" class="w-auto" :class="sizeClasses" />
+  <img src="/images/logo.png" alt="Soft Loft - Pilates Reformer Studio" class="w-auto" :class="sizeClasses" />
 </template>
 
 <script setup lang="ts">

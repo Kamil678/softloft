@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "grupowe",
+    "name": "Zajęcia grupowe",
+    "image": "/images/pilates-reformers-studio-white.png",
+    "description": "Kameralne grupy do 10 osób, dopasowane do poziomu uczestniczek.",
+    "billingLabel": "W cenie karnetu",
+    "details": "Zajęcia prowadzone są w spokojnym tempie, z naciskiem na technikę i bezpieczeństwo ruchu. Kameralna grupa oznacza, że instruktor widzi i koryguje każdy detal ruchu.",
+    "level": "Dla początkujących i zaawansowanych, sprężyny reformera dobierane indywidualnie do kondycji i możliwości każdej osoby.",
+    "forWho": "Dla każdego, kto lubi energię wspólnego treningu i wsparcie grupy.",
+    "includes": "60 minut zajęć, pełny dostęp do reformera i opiekę instruktora przez cały trening."
+  },
+  {
+    "slug": "duo",
+    "name": "Duo",
+    "image": "/images/pilates-reformer-duo.jpg",
+    "description": "Trening we dwoje, więcej uwagi instruktora, ten sam efekt.",
+    "billingLabel": "Wycena indywidualna",
+    "details": "Idealne rozwiązanie, gdy zależy Wam na większej ilości wskazówek indywidualnych niż w grupie, ale wciąż chcecie trenować razem.",
+    "level": "Dowolny poziom, program dopasowywany na bieżąco do możliwości obu osób.",
+    "forWho": "Dla par, przyjaciółek lub bliskich, które wolą trenować w mniejszym gronie.",
+    "includes": "60 minut treningu tylko dla Was dwojga oraz pełną uwagę instruktora."
+  },
+  {
+    "slug": "priv",
+    "name": "Priv",
+    "image": "/images/pilates-na-reformerze.jpg",
+    "description": "Trening indywidualny w pełni dopasowany do Twoich celów.",
+    "billingLabel": "Wycena indywidualna",
+    "details": "Program ułożony pod Twoje potrzeby: czy to powrót do formy po przerwie, przygotowanie do wydarzenia, czy chęć maksymalnego skupienia na technice.",
+    "level": "Dowolny poziom, także rekonwalescencja i przygotowanie sportowe.",
+    "forWho": "Dla osób, które chcą maksimum uwagi instruktora i programu szytego na miarę.",
+    "includes": "60 minut treningu prowadzonego wyłącznie dla Ciebie, indywidualny plan i pełne wsparcie instruktora."
+  }
+]

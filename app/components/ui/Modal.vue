@@ -1,7 +1,7 @@
 <template>
   <Teleport to="body">
     <div v-if="modelValue" class="fixed inset-0 z-50 flex items-center justify-center p-4">
-      <div class="absolute inset-0 bg-header/70" @click="close" />
+      <div class="absolute inset-0 bg-header/80 backdrop-blur-sm" @click="close" />
 
       <div
         ref="panelRef"
@@ -36,63 +36,63 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{ modelValue: boolean; title?: string }>()
-const emit = defineEmits<{ 'update:modelValue': [boolean] }>()
+const props = defineProps<{ modelValue: boolean; title?: string }>();
+const emit = defineEmits<{ "update:modelValue": [boolean] }>();
 
-const panelRef = ref<HTMLElement | null>(null)
-const titleId = `modal-title-${Math.random().toString(36).slice(2, 9)}`
-let previouslyFocused: HTMLElement | null = null
+const panelRef = ref<HTMLElement | null>(null);
+const titleId = `modal-title-${Math.random().toString(36).slice(2, 9)}`;
+let previouslyFocused: HTMLElement | null = null;
 
 function close() {
-  emit('update:modelValue', false)
+  emit("update:modelValue", false);
 }
 
 function getFocusable(): HTMLElement[] {
-  if (!panelRef.value) return []
+  if (!panelRef.value) return [];
   return Array.from(
     panelRef.value.querySelectorAll<HTMLElement>(
-      'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
-    )
-  )
+      'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])',
+    ),
+  );
 }
 
 function handleKeydown(event: KeyboardEvent) {
-  if (event.key === 'Escape') {
-    close()
-    return
+  if (event.key === "Escape") {
+    close();
+    return;
   }
-  if (event.key !== 'Tab') return
+  if (event.key !== "Tab") return;
 
-  const focusable = getFocusable()
-  if (!focusable.length) return
+  const focusable = getFocusable();
+  if (!focusable.length) return;
 
-  const first = focusable[0]!
-  const last = focusable[focusable.length - 1]!
+  const first = focusable[0]!;
+  const last = focusable[focusable.length - 1]!;
 
   if (event.shiftKey && document.activeElement === first) {
-    event.preventDefault()
-    last.focus()
+    event.preventDefault();
+    last.focus();
   } else if (!event.shiftKey && document.activeElement === last) {
-    event.preventDefault()
-    first.focus()
+    event.preventDefault();
+    first.focus();
   }
 }
 
 watch(
   () => props.modelValue,
   async (open) => {
-    document.body.style.overflow = open ? 'hidden' : ''
+    document.body.style.overflow = open ? "hidden" : "";
     if (open) {
-      previouslyFocused = document.activeElement as HTMLElement
-      await nextTick()
-      panelRef.value?.focus()
+      previouslyFocused = document.activeElement as HTMLElement;
+      await nextTick();
+      panelRef.value?.focus();
     } else {
-      previouslyFocused?.focus()
+      previouslyFocused?.focus();
     }
-  }
-)
+  },
+);
 
 onBeforeUnmount(() => {
-  document.body.style.overflow = ''
-})
+  document.body.style.overflow = "";
+});
 </script>

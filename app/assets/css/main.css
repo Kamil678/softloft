@@ -3,19 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --color-bg: #ffffff;
-  --color-header: #1a1a1a;
-  --color-header-text: #ffffff;
-  --color-footer: #1a1a1a;
-  --color-footer-text: #ffffff;
-  --color-accent: #bc8b34;
-  --color-accent-hover: #a97a2b;
-  --color-accent-strong: #8c6727;
-  --color-accent-text: #1a1a1a;
-  --color-text: #1a1a1a;
-  --color-text-muted: #6b6b6b;
-  --color-surface: #f7f6f3;
-  --color-border: #e6e3dd;
+  /* RGB triplets (not hex) so Tailwind's /opacity modifiers work, e.g. bg-accent/40 */
+  --color-bg: 255 255 255;
+  --color-header: 26 26 26;
+  --color-header-text: 255 255 255;
+  --color-footer: 26 26 26;
+  --color-footer-text: 255 255 255;
+  --color-accent: 188 139 52;
+  --color-accent-hover: 169 122 43;
+  --color-accent-strong: 140 103 39;
+  --color-accent-text: 26 26 26;
+  --color-text: 26 26 26;
+  --color-text-muted: 107 107 107;
+  --color-surface: 247 246 243;
+  --color-border: 230 227 221;
 
   --font-heading: 'Playfair Display', serif;
   --font-body: 'Inter', sans-serif;
@@ -23,7 +24,7 @@
 
 body {
   font-family: var(--font-body);
-  color: var(--color-text);
+  color: rgb(var(--color-text));
 }
 
 .no-scrollbar {

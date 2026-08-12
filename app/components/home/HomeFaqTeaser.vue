@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="mt-12 text-center">
-        <AppButton to="/o-studio" variant="outline">
+        <AppButton to="/oferta#faq" variant="outline">
           {{ $t("home.faqTeaser.cta") }}
         </AppButton>
       </div>

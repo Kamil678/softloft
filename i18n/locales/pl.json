@@ -91,8 +91,6 @@
     "title": "Zajęcia i cennik",
     "subtitle": "Kameralne sesje na reformerach, dopasowane do Twojego poziomu i tempa.",
     "classesSection": {
-      "eyebrow": "Zajęcia",
-      "title": "Wybierz swój trening",
       "detailsCta": "Szczegóły",
       "modalLevel": "Poziom trudności",
       "modalForWho": "Dla kogo",
@@ -117,7 +115,7 @@
   "booking": {
     "eyebrow": "Zapisy",
     "title": "Zarezerwuj zajęcia",
-    "subtitle": "Zapisy odbywają się wyłącznie online, przez aplikację Fitssey – rezerwujesz i odwołujesz trening dwoma kliknięciami.",
+    "subtitle": "Zapisy odbywają się wyłącznie online, przez aplikację Fitssey: rezerwujesz i odwołujesz trening dwoma kliknięciami.",
     "cta": "Otwórz Fitssey",
     "pending": "Grafik zajęć pojawi się tutaj, gdy tylko dostęp do Fitssey zostanie uruchomiony."
   },
@@ -125,7 +123,7 @@
     "eyebrow": "Opinie",
     "title": "Co mówią nasi klienci",
     "subtitle": "Opinie klientek, które już poczuły różnicę Soft Loft.",
-    "empty": "Studio otwiera się w 2026 roku — pierwsze opinie pojawią się tutaj wkrótce po starcie zajęć.",
+    "empty": "Studio otwiera się w 2026 roku, pierwsze opinie pojawią się tutaj wkrótce po starcie zajęć.",
     "emptyCta": "Zarezerwuj pierwszy trening",
     "railAriaLabel": "Pozostałe opinie klientów",
     "moreCta": "Zobacz więcej opinii na Google"
@@ -136,7 +134,7 @@
     "subtitle": "Firmy i osoby, z którymi tworzymy Soft Loft.",
     "ctaEyebrow": "Dołącz do nas",
     "ctaTitle": "Zostań naszym partnerem",
-    "ctaText": "Szukamy marek i miejsc, które – podobnie jak my – stawiają na jakość, a nie ilość. Jeśli widzisz przestrzeń do wspólnego projektu, napisz do nas.",
+    "ctaText": "Szukamy marek i miejsc, które (podobnie jak my) stawiają na jakość, a nie ilość. Jeśli widzisz przestrzeń do wspólnego projektu, napisz do nas.",
     "ctaButton": "Skontaktuj się"
   },
   "contact": {
@@ -147,7 +145,7 @@
     "ctaTitle": "Umów pierwszy trening",
     "ctaText": "Rezerwacja zajmuje mniej niż minutę - wybierz dogodny termin w Fitssey.",
     "addressTitle": "Adres",
-    "addressLines": ["Soft Loft — Pilates Reformer Studio", "ul. Glogera 21", "31-222 Kraków", "Prądnik Biały"],
+    "addressLines": ["Soft Loft - Pilates Reformer Studio", "ul. Glogera 21", "31-222 Kraków", "Prądnik Biały"],
     "contactTitle": "Dane kontaktowe",
     "hoursTitle": "Godziny otwarcia",
     "hoursValue": "Popołudniami ok. 17:00–20:00",

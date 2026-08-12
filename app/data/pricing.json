@@ -1,0 +1,30 @@
+{
+  "note": "Cennik studia jest w trakcie ustalania, ostateczne ceny pojawią się tutaj, gdy tylko zostaną potwierdzone.",
+  "items": [
+    {
+      "name": "Wejście próbne",
+      "description": "Jednorazowy trening, dobry sposób, aby poznać reformer i atmosferę studia.",
+      "price": null,
+      "unit": "za trening",
+      "highlighted": false,
+      "perks": ["Pierwsze spotkanie z reformerem", "Bez zobowiązań", "Rezerwacja online w Fitssey"]
+    },
+    {
+      "name": "Karnet 4 wejścia",
+      "description": "Cztery treningi do wykorzystania w dogodnym dla Ciebie tempie.",
+      "price": null,
+      "unit": "za karnet",
+      "highlighted": false,
+      "perks": ["4 wejścia do wykorzystania w Twoim tempie", "Rezerwacja i odwołanie online", "Kameralne grupy do 10 osób"]
+    },
+    {
+      "name": "Karnet 8 wejść",
+      "description": "Osiem treningów, regularna praktyka w najlepszej cenie za wejście.",
+      "price": null,
+      "unit": "za karnet",
+      "highlighted": true,
+      "badge": "Najlepsza cena",
+      "perks": ["8 wejść w najlepszej cenie za trening", "Rezerwacja i odwołanie online", "Kameralne grupy do 10 osób", "Najlepszy wybór dla regularnej praktyki"]
+    }
+  ]
+}

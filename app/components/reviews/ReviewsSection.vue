@@ -19,8 +19,8 @@
       </div>
 
       <template v-else>
-        <div class="mx-auto grid gap-10 sm:grid-cols-2 sm:items-center lg:gap-16">
-          <div class="aspect-[4/5] overflow-hidden rounded-xl shadow-lg">
+        <div class="mx-auto grid gap-10 sm:grid-cols-5 sm:items-center lg:gap-16">
+          <div class="mx-auto aspect-[4/5] w-2/3 overflow-hidden rounded-xl shadow-lg sm:col-span-2 sm:w-full">
             <img
               src="/images/pilates-reformer-stretch.webp"
               alt="Trening pilates na reformerze w Soft Loft"
@@ -28,7 +28,7 @@
               loading="lazy"
             />
           </div>
-          <div class="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
+          <div class="flex flex-col items-center gap-6 text-center sm:col-span-3 sm:items-start sm:text-left">
             <ReviewsSummary :reviews="reviews" />
             <div class="flex items-center gap-2 text-xs font-medium tracking-wide text-text-muted uppercase">
               <IconBrandGoogle :size="16" stroke-width="1.8" class="text-accent" aria-hidden="true" />

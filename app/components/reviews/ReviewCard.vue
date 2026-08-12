@@ -20,7 +20,7 @@
 
   <blockquote
     v-else
-    class="flex h-full flex-col justify-between rounded-2xl bg-surface p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-8"
+    class="flex h-full flex-col justify-between rounded-2xl bg-surface p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
   >
     <div>
       <div class="flex items-center justify-between gap-3">
@@ -36,9 +36,9 @@
         </span>
         <IconQuote :size="22" stroke-width="1.6" class="shrink-0 text-accent/30" aria-hidden="true" />
       </div>
-      <p class="mt-5 text-[15px] leading-relaxed text-text sm:text-base">„{{ text }}”</p>
+      <p class="mt-4 text-[15px] leading-relaxed text-text sm:text-base">„{{ text }}”</p>
     </div>
-    <footer class="mt-6 border-t border-border pt-4 text-xs">
+    <footer class="mt-4 border-t border-border pt-4 text-xs">
       <cite class="font-semibold text-text not-italic">{{ name }}</cite>
       <span v-if="date" class="text-text-muted"> · {{ date }}</span>
     </footer>
