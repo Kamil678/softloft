@@ -72,14 +72,40 @@
   },
   "about": {
     "eyebrow": "O studio",
+    "storyEyebrow": "Nasza historia",
     "title": "Poznaj Soft Loft",
-    "body": "Poznaj Soft Loft – miejsce, w którym pasja do precyzyjnego ruchu spotyka miłość do minimalistycznego designu. Miejsce, które od progu pozwala odciąć się od miejskiego zgiełku. Biel, czerń, grafit i subtelne złote akcenty tworzą tło dla tego, co najważniejsze – Twojego ciała, siły i harmonii. W Soft Loft stawiamy na jakość, a nie na ilość, dlatego nasze sesje odbywają się w kameralnych grupach max 10 osób oraz w formule priv i duo. Niezależnie od tego, czy dopiero zaczynasz przygodę z pilatesem, czy chcesz wznieść swój trening na wyższy poziom – nasi instruktorzy zadbają o każdy Twój ruch z zegarmistrzowską precyzją.",
+    "storyLead": "Poznaj Soft Loft – miejsce, w którym pasja do precyzyjnego ruchu spotyka miłość do minimalistycznego designu. Miejsce, które od progu pozwala odciąć się od miejskiego zgiełku. Biel, czerń, grafit i subtelne złote akcenty tworzą tło dla tego, co najważniejsze – Twojego ciała, siły i harmonii.",
+    "storyRest": "W Soft Loft stawiamy na jakość, a nie na ilość, dlatego nasze sesje odbywają się w kameralnych grupach max 10 osób oraz w formule priv i duo. Niezależnie od tego, czy dopiero zaczynasz przygodę z pilatesem, czy chcesz wznieść swój trening na wyższy poziom – nasi instruktorzy zadbają o każdy Twój ruch z zegarmistrzowską precyzją.",
+    "tags": ["Max 10 osób", "Priv & Duo", "Zegarmistrzowska precyzja"],
+    "hero": {
+      "quote": "Soft Loft powstało po to, aby każdy mógł poczuć się dobrze w swoim ciele – w studio i poza nim."
+    },
+    "benefits": {
+      "eyebrow": "Efekty",
+      "intro": "Zapomnij o fitnessowych mitach. Długie, szczupłe, smukłe sylwetki to często zasługa genów i wieloletnich diet. Pilates na reformerach da Ci coś znacznie lepszego:",
+      "items": [
+        "Lepszą ruchomość, świadomość i stabilność ciała",
+        "Większą siłę niezależnie od wieku, wzrostu, wagi czy płci",
+        "Zredukuje stres, poprawia jakość snu i zwiększy energię"
+      ],
+      "outroLead": "Efekty rosną z regularnością – po kilku tygodniach systematycznych zajęć zauważasz lepszą postawę, stabilność i elastyczność. Nie chodzi tutaj o to, jak wyglądasz. Chodzi o to, jak się czujesz i jak się poruszasz.",
+      "outroEmphasis": "Pamiętaj: Twoje ciało już teraz jest wystarczające!"
+    },
+    "manifesto": {
+      "text": "W Soft Loft czeka na Ciebie profesjonalna opieka, szczerość, dawka dobrego humoru i kubek pysznej kawy. Wpadnij i poczuj różnicę!"
+    },
     "instructors": {
       "eyebrow": "Zespół",
       "title": "Instruktorzy",
       "searchingTitle": "Kompletujemy zespół instruktorów",
       "searchingText": "Soft Loft szuka doświadczonych instruktorów pilates reformer. Wkrótce przedstawimy tu naszą kadrę.",
+      "applyText": "Prowadzisz zajęcia z pasją i dbałością o technikę? Szukamy i zatrudniamy – chętnie Cię poznamy.",
+      "applyCta": "Aplikuj do zespołu",
       "afterHours": "Po godzinach"
+    },
+    "closingCta": {
+      "text": "Gotowa, by poczuć różnicę na własnej skórze?",
+      "cta": "Zarezerwuj swój pierwszy trening"
     },
     "faq": {
       "eyebrow": "Warto wiedzieć",

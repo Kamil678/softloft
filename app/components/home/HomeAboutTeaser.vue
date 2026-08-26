@@ -1,7 +1,7 @@
 <template>
   <section class="max-w-7xl mx-auto px-4 py-16 sm:py-20 sm:px-6">
     <div class="mx-auto grid items-center gap-8 sm:grid-cols-2 sm:gap-10 lg:gap-16">
-      <div class="aspect-[4/5] overflow-hidden rounded-xl shadow-lg">
+      <div class="mx-auto aspect-[4/5] w-2/3 overflow-hidden rounded-xl shadow-lg sm:w-full">
         <img
           src="/images/pilates-na-reformerze.jpg"
           alt="Wnętrze studia Soft Loft z reformerem pilates"

@@ -10,6 +10,8 @@
       image-alt="Loftowe wnętrze studia pilates z reformerami"
     />
 
+    <HomeBrandStatement />
+
     <HomeAboutTeaser />
 
     <HomeFaqTeaser />
@@ -29,6 +31,7 @@
 import FinalCta from "~/components/ui/FinalCta.vue";
 import Hero from "~/components/home/Hero.vue";
 import HomeAboutTeaser from "~/components/home/HomeAboutTeaser.vue";
+import HomeBrandStatement from "~/components/home/HomeBrandStatement.vue";
 import HomeFaqTeaser from "~/components/home/HomeFaqTeaser.vue";
 
 const { public: publicConfig } = useRuntimeConfig();

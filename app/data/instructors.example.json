@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Anna",
+    "role": "Instruktor Pilates Reformer",
+    "quote": "Twoje ciało potrafi więcej, niż podpowiada Ci głowa.",
+    "specialization": "Rzeźbienie sylwetki, poprawa dynamiki ruchu. Łączy klasyczny pilates na reformerach z elementami treningu funkcjonalnego, z dużym naciskiem na technikę.",
+    "afterHours": "Windsurfing"
+  },
+  {
+    "name": "Tomasz",
+    "role": "Instruktor Pilates & Movement",
+    "quote": "Ruch ma leczyć i dawać wolność.",
+    "specialization": "Certyfikowany trener i fizjoterapeuta - dobry wybór po przerwie od aktywności, przy siedzącym trybie życia lub problemach z kręgosłupem. Uczy precyzji, balansu i zarządzania ciałem.",
+    "afterHours": "Kolekcjonuje płyty winylowe, biega maratony"
+  },
+  {
+    "name": "Karolina",
+    "role": "Instruktor Pilates Reformer i Mata",
+    "quote": "Zacznij od mocnych fundamentów, a efekty przyjdą same.",
+    "specialization": "Mistrzyni detalu - prosto tłumaczy działanie reformera i kontrolę oddechu. Zajęcia intensywne i dobrze ustrukturyzowane, dla początkujących i zaawansowanych.",
+    "afterHours": "Zdrowa kuchnia i joga"
+  }
+]
