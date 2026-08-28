@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20">
+  <section class="mx-auto max-w-7xl px-4 pb-10 sm:px-6 sm:pb-20">
     <SectionHeading
       :eyebrow="$t('about.instructors.eyebrow')"
       :title="$t('about.instructors.title')"

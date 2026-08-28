@@ -18,7 +18,7 @@
         </NuxtLink>
       </nav>
 
-      <AppButton :href="fitsseyUrl" variant="primary" class="hidden lg:inline-flex">
+      <AppButton to="/zapisy" variant="primary" class="hidden lg:inline-flex">
         {{ $t("nav.cta") }}
       </AppButton>
 
@@ -58,7 +58,7 @@
         </NuxtLink>
       </nav>
 
-      <AppButton :href="fitsseyUrl" variant="primary" class="mt-10 w-full" @click="closeMenu">
+      <AppButton to="/zapisy" variant="primary" class="mt-10 w-full" @click="closeMenu">
         {{ $t("nav.cta") }}
       </AppButton>
     </div>
@@ -70,8 +70,6 @@ import AppButton from "../ui/AppButton.vue";
 
 const route = useRoute();
 const { t } = useI18n();
-const { public: publicConfig } = useRuntimeConfig();
-const fitsseyUrl = publicConfig.fitsseyUrl as string;
 
 const menuOpen = ref(false);
 const headerRef = ref<HTMLElement | null>(null);

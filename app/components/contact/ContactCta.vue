@@ -15,7 +15,7 @@
         <p class="mt-2 max-w-md text-sm leading-relaxed text-text-muted">{{ $t("contact.ctaText") }}</p>
       </div>
 
-      <AppButton :href="fitsseyUrl" variant="primary" class="group/btn shrink-0">
+      <AppButton to="/zapisy" variant="primary" class="group/btn shrink-0">
         {{ $t("nav.cta") }}
         <IconArrowUpRight
           :size="16"
@@ -30,7 +30,4 @@
 <script setup lang="ts">
 import { IconArrowUpRight, IconCalendarEvent } from "@tabler/icons-vue";
 import AppButton from "~/components/ui/AppButton.vue";
-
-const { public: publicConfig } = useRuntimeConfig();
-const fitsseyUrl = publicConfig.fitsseyUrl as string;
 </script>

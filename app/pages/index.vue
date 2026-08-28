@@ -5,7 +5,7 @@
       :title="$t('home.heroTitle')"
       :subtitle="$t('home.heroSubtitle')"
       :cta-label="$t('home.heroCta')"
-      :cta-href="fitsseyUrl"
+      cta-href="/zapisy"
       image="/images/pilates-reformers-studio-white.png"
       image-alt="Loftowe wnętrze studia pilates z reformerami"
     />
@@ -33,9 +33,6 @@ import Hero from "~/components/home/Hero.vue";
 import HomeAboutTeaser from "~/components/home/HomeAboutTeaser.vue";
 import HomeBrandStatement from "~/components/home/HomeBrandStatement.vue";
 import HomeFaqTeaser from "~/components/home/HomeFaqTeaser.vue";
-
-const { public: publicConfig } = useRuntimeConfig();
-const fitsseyUrl = publicConfig.fitsseyUrl as string;
 
 useHead({
   title: "Soft Loft - Pilates Reformer Studio w Krakowie",

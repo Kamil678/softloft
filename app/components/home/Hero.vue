@@ -37,7 +37,7 @@
       >
         {{ subtitle }}
       </p>
-      <AppButton :href="ctaHref" variant="primary" class="mt-8 w-fit">
+      <AppButton :to="ctaHref" variant="primary" class="mt-8 w-fit">
         {{ ctaLabel }}
       </AppButton>
     </div>
