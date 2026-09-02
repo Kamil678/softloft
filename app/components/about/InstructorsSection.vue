@@ -7,13 +7,16 @@
       class="mx-auto text-center"
     />
 
-    <div v-if="instructors.length" class="mt-12 grid gap-6 sm:grid-cols-3">
+    <div
+      v-if="instructors.length"
+      class="mt-12 flex flex-col items-center gap-6 sm:grid sm:justify-center sm:[grid-template-columns:repeat(auto-fit,minmax(280px,336px))]"
+    >
       <InstructorCard
         v-for="(instructor, idx) in instructors"
         :key="instructor.name"
         v-bind="instructor"
         :index="idx + 1"
-        class="mx-auto w-4/5 sm:w-full"
+        class="w-4/5 sm:w-full"
       />
     </div>
 
