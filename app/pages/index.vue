@@ -6,7 +6,7 @@
       :subtitle="$t('home.heroSubtitle')"
       :cta-label="$t('home.heroCta')"
       cta-href="/zapisy"
-      image="/images/pilates-reformers-studio-white.png"
+      image="/images/studio/studio-interior-hero.jpg"
       image-alt="Loftowe wnętrze studia pilates z reformerami"
     />
 

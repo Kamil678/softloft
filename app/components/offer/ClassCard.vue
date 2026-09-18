@@ -3,7 +3,13 @@
     class="flex h-full flex-col overflow-hidden rounded-2xl bg-surface shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
   >
     <div class="aspect-[4/3] overflow-hidden">
-      <img :src="image" :alt="name" class="h-full w-full object-cover" loading="lazy" />
+      <img
+        :src="image"
+        :alt="name"
+        class="h-full w-full object-cover"
+        :style="{ objectPosition: imagePosition }"
+        loading="lazy"
+      />
     </div>
 
     <div class="flex flex-1 flex-col p-6 md:p-7">
@@ -33,13 +39,17 @@
 <script setup lang="ts">
 import { IconArrowUpRight } from "@tabler/icons-vue";
 
-defineProps<{
-  name: string;
-  description: string;
-  billingLabel: string;
-  detailsCta: string;
-  image: string;
-}>();
+withDefaults(
+  defineProps<{
+    name: string;
+    description: string;
+    billingLabel: string;
+    detailsCta: string;
+    image: string;
+    imagePosition?: string;
+  }>(),
+  { imagePosition: "center" },
+);
 
 defineEmits<{ details: [] }>();
 </script>

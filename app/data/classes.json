@@ -2,7 +2,8 @@
   {
     "slug": "grupowe",
     "name": "Zajęcia grupowe",
-    "image": "/images/pilates-reformers-studio-white.png",
+    "image": "/images/studio/studio-group-room.jpg",
+    "imagePosition": "center",
     "description": "Kameralne grupy do 10 osób, dopasowane do poziomu uczestniczek.",
     "billingLabel": "W cenie karnetu",
     "details": "Zajęcia prowadzone są w spokojnym tempie, z naciskiem na technikę i bezpieczeństwo ruchu. Kameralna grupa oznacza, że instruktor widzi i koryguje każdy detal ruchu.",
@@ -13,7 +14,8 @@
   {
     "slug": "duo",
     "name": "Duo",
-    "image": "/images/pilates-reformer-duo.jpg",
+    "image": "/images/training/duo-training.png",
+    "imagePosition": "center 20%",
     "description": "Trening we dwoje, więcej uwagi instruktora, ten sam efekt.",
     "billingLabel": "Wycena indywidualna",
     "details": "Idealne rozwiązanie, gdy zależy Wam na większej ilości wskazówek indywidualnych niż w grupie, ale wciąż chcecie trenować razem.",
@@ -24,7 +26,8 @@
   {
     "slug": "priv",
     "name": "Priv",
-    "image": "/images/pilates-na-reformerze.jpg",
+    "image": "/images/training/individual-training.png",
+    "imagePosition": "center",
     "description": "Trening indywidualny w pełni dopasowany do Twoich celów.",
     "billingLabel": "Wycena indywidualna",
     "details": "Program ułożony pod Twoje potrzeby: czy to powrót do formy po przerwie, przygotowanie do wydarzenia, czy chęć maksymalnego skupienia na technice.",

@@ -9,6 +9,7 @@
         :billing-label="item.billingLabel"
         :details-cta="$t('offer.classesSection.detailsCta')"
         :image="item.image"
+        :image-position="item.imagePosition"
         @details="openModal(item)"
       />
     </div>

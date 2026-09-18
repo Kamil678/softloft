@@ -3,7 +3,7 @@
     <div class="mx-auto grid items-center gap-8 sm:grid-cols-2 sm:gap-10 lg:gap-16">
       <div class="mx-auto aspect-[4/5] w-2/3 overflow-hidden rounded-xl shadow-lg sm:w-full">
         <img
-          src="/images/pilates-na-reformerze.jpg"
+          src="/images/training/studio-training-scene.png"
           alt="Wnętrze studia Soft Loft z reformerem pilates"
           class="h-full w-full object-cover"
           loading="lazy"

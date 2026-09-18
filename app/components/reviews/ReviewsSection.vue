@@ -22,7 +22,7 @@
         <div class="mx-auto grid gap-10 sm:grid-cols-5 sm:items-center lg:gap-16">
           <div class="mx-auto aspect-[4/5] w-2/3 overflow-hidden rounded-xl shadow-lg sm:col-span-2 sm:w-full">
             <img
-              src="/images/pilates-reformer-stretch.webp"
+              src="/images/training/stretch-detail.png"
               alt="Trening pilates na reformerze w Soft Loft"
               class="h-full w-full object-cover"
               loading="lazy"

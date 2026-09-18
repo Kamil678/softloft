@@ -8,10 +8,9 @@
       <div class="relative md:min-h-[26rem]">
         <div class="absolute -inset-4 hidden rounded-2xl border border-accent/25 md:block" aria-hidden="true" />
         <div class="mx-auto grid aspect-[4/5] w-full grid-cols-2 grid-rows-2 gap-2 md:aspect-auto md:h-full md:gap-3">
-          <!-- TODO: podmienić na docelowe zdjęcia studia od klientki -->
           <div class="row-span-2 overflow-hidden rounded-xl shadow-lg">
             <img
-              src="/images/pilates-reformer-duo.jpg"
+              src="/images/training/individual-training.png"
               alt="Trening pilates na reformerze w Soft Loft"
               class="h-full w-full object-cover"
               loading="eager"
@@ -19,7 +18,7 @@
           </div>
           <div class="overflow-hidden rounded-xl shadow-lg">
             <img
-              src="/images/pilates-reformers-studio-white.png"
+              src="/images/studio/studio-interior-evening.jpg"
               alt="Wnętrze studia Soft Loft"
               class="h-full w-full object-cover"
               loading="lazy"
@@ -27,7 +26,7 @@
           </div>
           <div class="overflow-hidden rounded-xl shadow-lg">
             <img
-              src="/images/pilates-reformer-stretch.webp"
+              src="/images/training/solo-training-woman.png"
               alt="Rozciąganie na reformerze w studiu Soft Loft"
               class="h-full w-full object-cover"
               loading="lazy"

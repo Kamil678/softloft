@@ -13,8 +13,6 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      // TODO: uzupełnić, gdy klientka utworzy grafik zajęć w Fitssey i wygeneruje kod widżetu (Krok 2 w panelu Fitssey)
-      fitsseyWidgetUuid: "",
       instagramUrl: "https://www.instagram.com/softloft_pilates/",
       facebookUrl: "https://www.facebook.com/SoftLoftpilates",
       phone: "506 44 83 83",
@@ -30,20 +28,6 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
-      script: [
-        {
-          key: "fitssey-base",
-          innerHTML: `(function(i,s,o,g,r,a,m){i['FitsseyWidget']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,
-'script',
-'https://app.fitssey.com/assets/js/lb.widget.prod.js',
-'lb');
-lb('init','SoftLoft');`,
-          tagPosition: "bodyClose",
-        },
-      ],
     },
   },
 
