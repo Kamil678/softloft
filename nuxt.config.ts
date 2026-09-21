@@ -22,6 +22,10 @@ export default defineNuxtConfig({
       address: "ul. Zygmunta Glogera 21, 31-222 Kraków",
       directionsUrl: "https://www.google.com/maps/search/?api=1&query=ul.+Zygmunta+Glogera+21%2C+31-222+Krak%C3%B3w",
       googleReviewsUrl: "https://g.page/r/CQm40TIyroUaEBM/review",
+      privacyPolicy:
+        "https://fitssey-prod-cdn.storage.googleapis.com/uploads/studio/D51D9038-CBC2-4D54-93BE-009F862C3BEE/terms/d8a1967e223e3ae0e4e132884c45e5cae00b8766.pdf",
+      regulations:
+        "https://fitssey-prod-cdn.storage.googleapis.com/uploads/studio/D51D9038-CBC2-4D54-93BE-009F862C3BEE/terms/84d5fb0a09e319572ee850cf14b04c5995a0f186.pdf",
     },
   },
 

@@ -38,20 +38,10 @@
         <div class="flex flex-col items-center sm:items-start">
           <p class="text-sm font-semibold tracking-[0.2em] text-footer-text/50 uppercase">{{ $t("footer.documents") }}</p>
           <div class="mt-5 flex flex-col items-center gap-3 text-sm text-footer-text/70 sm:items-start">
-            <a
-              href="/docs/Regulamin_Soft_Loft_Pilates.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-sm transition-colors hover:text-accent-hover"
-            >
+            <a :href="regulationsUrl" target="_blank" rel="noopener noreferrer" class="text-sm transition-colors hover:text-accent-hover">
               {{ $t("footer.terms") }}
             </a>
-            <a
-              href="/docs/Polityka_Prywatnosci_i_Monitoringu_Soft_Loft.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-sm transition-colors hover:text-accent-hover"
-            >
+            <a :href="privacyPolicyUrl" target="_blank" rel="noopener noreferrer" class="text-sm transition-colors hover:text-accent-hover">
               {{ $t("footer.privacyPolicy") }}
             </a>
           </div>
@@ -118,6 +108,8 @@ const email = publicConfig.email as string;
 const emailHref = publicConfig.emailHref as string;
 const address = publicConfig.address as string;
 const directionsUrl = publicConfig.directionsUrl as string;
+const privacyPolicyUrl = publicConfig.privacyPolicy as string;
+const regulationsUrl = publicConfig.regulations as string;
 
 const year = new Date().getFullYear();
 
