@@ -14,7 +14,7 @@
       <div class="grid gap-5 sm:grid-cols-3">
         <ContactAddressCard />
         <ContactInfoCard />
-        <ContactHoursCard />
+        <ContactSocialCard />
       </div>
     </section>
 
@@ -37,7 +37,7 @@
 <script setup lang="ts">
 import ContactAddressCard from "~/components/contact/ContactAddressCard.vue";
 import ContactCta from "~/components/contact/ContactCta.vue";
-import ContactHoursCard from "~/components/contact/ContactHoursCard.vue";
+import ContactSocialCard from "~/components/contact/ContactSocialCard.vue";
 import ContactInfoCard from "~/components/contact/ContactInfoCard.vue";
 import ContactMap from "~/components/contact/ContactMap.vue";
 import ContactParking from "~/components/contact/ContactParking.vue";
