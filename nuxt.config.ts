@@ -20,7 +20,9 @@ export default defineNuxtConfig({
       email: "soft.loft.pilates@gmail.com",
       emailHref: "mailto:soft.loft.pilates@gmail.com",
       address: "ul. Zygmunta Glogera 21/LU1, 31-222 Kraków",
-      directionsUrl: "https://www.google.com/maps/search/?api=1&query=ul.+Zygmunta+Glogera+21%2C+31-222+Krak%C3%B3w",
+      directionsUrl: "https://maps.app.goo.gl/axDhGxrEqXM4JmVy5",
+      // Zapytanie do osadzonej mapy Google (iframe nie obsługuje krótkich linków maps.app.goo.gl) - nazwa wizytówki + adres, żeby pinezka wskazywała to samo miejsce co directionsUrl
+      mapQuery: "Soft Loft Pilates Reformer Studio, Zygmunta Glogera 21, 31-222 Kraków",
       googleReviewsUrl: "https://g.page/r/CQm40TIyroUaEBM/review",
       privacyPolicy: "/docs/Polityka_Prywatnosci_i_Monitoringu_Soft_Loft.pdf",
       regulations: "/docs/Regulamin_Soft_Loft_Pilates.pdf",

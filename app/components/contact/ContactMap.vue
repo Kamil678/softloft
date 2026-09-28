@@ -10,8 +10,8 @@
 
 <script setup lang="ts">
 const props = defineProps<{
-  address: string
+  query: string
 }>()
 
-const mapSrc = computed(() => `https://www.google.com/maps?q=${encodeURIComponent(props.address)}&output=embed`)
+const mapSrc = computed(() => `https://www.google.com/maps?q=${encodeURIComponent(props.query)}&output=embed`)
 </script>

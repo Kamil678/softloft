@@ -6,7 +6,7 @@
     "booking": "Zapisy i cennik",
     "bookingShort": "Zapisy",
     "reviews": "Opinie",
-    "partners": "Współprace",
+    "partners": "Współpraca",
     "contact": "Kontakt",
     "cta": "Zarezerwuj zajęcia",
     "menuOpen": "Otwórz menu",
@@ -162,10 +162,12 @@
     "empty": "Studio otwiera się w 2026 roku, pierwsze opinie pojawią się tutaj wkrótce po starcie zajęć.",
     "emptyCta": "Zarezerwuj pierwszy trening",
     "railAriaLabel": "Pozostałe opinie klientów",
-    "moreCta": "Zobacz więcej opinii na Google"
+    "moreCta": "Zobacz więcej opinii na Google",
+    "comingSoon": "Opinie naszych klientek pojawią się tutaj już wkrótce.",
+    "comingSoonCta": "Wróć na stronę główną"
   },
   "partners": {
-    "eyebrow": "Współprace",
+    "eyebrow": "Współpraca",
     "title": "Nasi partnerzy",
     "subtitle": "Firmy i osoby, z którymi tworzymy Soft Loft.",
     "ctaEyebrow": "Dołącz do nas",

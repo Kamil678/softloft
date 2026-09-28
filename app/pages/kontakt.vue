@@ -20,7 +20,7 @@
 
     <section class="mx-auto max-w-7xl px-4 mt-8 sm:px-6">
       <div class="h-[340px] overflow-hidden rounded-2xl border border-border shadow-lg sm:h-[420px]">
-        <ContactMap :address="address" />
+        <ContactMap :query="mapQuery" />
       </div>
     </section>
 
@@ -49,5 +49,5 @@ useHead({
 });
 
 const { public: publicConfig } = useRuntimeConfig();
-const address = publicConfig.address as string;
+const mapQuery = publicConfig.mapQuery as string;
 </script>

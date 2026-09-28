@@ -83,7 +83,8 @@ const links = computed(() => [
   { to: "/o-studio", label: t("nav.about") },
   { to: "/oferta", label: t("nav.offer") },
   { to: "/zapisy", label: t("nav.booking"), shortLabel: t("nav.bookingShort"), highlight: true },
-  { to: "/opinie", label: t("nav.reviews") },
+  // Opinie tymczasowo ukryte - odkomentować, żeby przywrócić w menu
+  // { to: "/opinie", label: t("nav.reviews") },
   { to: "/wspolprace", label: t("nav.partners") },
   { to: "/kontakt", label: t("nav.contact") },
 ]);
