@@ -45,7 +45,7 @@ import SectionHeading from "~/components/ui/SectionHeading.vue";
 
 useHead({
   title: "Kontakt - Soft Loft",
-  meta: [{ name: "description", content: "Kontakt i adres studia Soft Loft, Pilates Reformer Studio, ul. Glogera 21, Kraków." }],
+  meta: [{ name: "description", content: "Kontakt i adres studia Soft Loft, Pilates Reformer Studio, ul. Glogera 21/LU1, Kraków." }],
 });
 
 const { public: publicConfig } = useRuntimeConfig();

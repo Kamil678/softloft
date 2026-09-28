@@ -64,7 +64,7 @@
               class="flex items-start gap-2.5 text-sm transition-colors hover:text-accent-hover"
             >
               <IconMapPin :size="16" :stroke-width="1.6" class="mt-0.5 shrink-0 text-accent" />
-              <span>{{ address }}</span>
+              <span>{{ addressStreet }}<br />{{ addressCity }}</span>
             </a>
           </div>
         </div>
@@ -107,6 +107,7 @@ const phoneHref = publicConfig.phoneHref as string;
 const email = publicConfig.email as string;
 const emailHref = publicConfig.emailHref as string;
 const address = publicConfig.address as string;
+const [addressStreet, addressCity] = address.split(/,\s*(.*)/s);
 const directionsUrl = publicConfig.directionsUrl as string;
 const privacyPolicyUrl = publicConfig.privacyPolicy as string;
 const regulationsUrl = publicConfig.regulations as string;
