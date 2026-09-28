@@ -10,7 +10,7 @@
       />
     </section>
 
-    <section class="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
+    <section id="cennik" class="mx-auto max-w-7xl scroll-mt-24 px-4 pb-16 sm:px-6">
       <div class="rounded-2xl border border-accent/30 bg-surface p-4 shadow-sm sm:p-6">
         <ClientOnly>
           <div v-if="!widgetFailed" id="fitssey-widget">
@@ -23,18 +23,41 @@
         </ClientOnly>
       </div>
     </section>
+
+    <section class="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
+      <div class="flex flex-col items-center gap-6 rounded-2xl border border-border bg-surface p-8 text-center sm:p-10">
+        <SectionHeading
+          :eyebrow="$t('booking.consent.eyebrow')"
+          :title="$t('booking.consent.title')"
+          :subtitle="$t('booking.consent.text')"
+          align="center"
+        />
+        <AppButton :href="imageConsentUrl" variant="secondary">
+          <IconDownload :size="16" :stroke-width="1.8" aria-hidden="true" />
+          {{ $t("booking.consent.cta") }}
+        </AppButton>
+      </div>
+    </section>
   </div>
 </template>
 
 <script setup lang="ts">
-import { IconCalendarEvent } from "@tabler/icons-vue";
+import { IconCalendarEvent, IconDownload } from "@tabler/icons-vue";
+import AppButton from "~/components/ui/AppButton.vue";
 import SectionHeading from "~/components/ui/SectionHeading.vue";
+
+const imageConsentUrl = useRuntimeConfig().public.imageConsent as string;
 
 const widgetFailed = ref(false);
 
 useHead({
-  title: "Zapisy - Soft Loft",
-  meta: [{ name: "description", content: "Zarezerwuj trening pilates reformer w Soft Loft przez aplikację Fitssey." }],
+  title: "Zapisy i cennik - Soft Loft",
+  meta: [
+    {
+      name: "description",
+      content: "Zarezerwuj trening pilates reformer w Soft Loft przez aplikację Fitssey i sprawdź cennik wejść oraz karnetów.",
+    },
+  ],
 });
 
 onMounted(() => {

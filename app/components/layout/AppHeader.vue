@@ -5,20 +5,24 @@
         <AppLogo size="sm" />
       </NuxtLink>
 
-      <nav class="hidden items-center gap-8 lg:flex">
+      <nav class="hidden items-center gap-6 lg:flex xl:gap-8">
         <NuxtLink
           v-for="link in links"
           :key="link.to"
           :to="link.to"
-          class="flex items-center gap-1.5 text-xs font-medium tracking-[0.12em] uppercase transition-colors hover:text-accent"
+          class="flex items-center gap-1.5 text-xs font-medium tracking-[0.12em] whitespace-nowrap uppercase transition-colors hover:text-accent"
           :class="isActive(link.to) ? 'text-accent' : 'text-header-text'"
         >
           <span v-if="link.highlight" class="h-1.5 w-1.5 rounded-full bg-accent" aria-hidden="true" />
-          {{ link.label }}
+          <template v-if="link.shortLabel">
+            <span class="xl:hidden">{{ link.shortLabel }}</span>
+            <span class="hidden xl:inline">{{ link.label }}</span>
+          </template>
+          <template v-else>{{ link.label }}</template>
         </NuxtLink>
       </nav>
 
-      <AppButton to="/zapisy" variant="primary" class="hidden lg:inline-flex">
+      <AppButton to="/zapisy" variant="primary" class="hidden whitespace-nowrap lg:inline-flex">
         {{ $t("nav.cta") }}
       </AppButton>
 
@@ -78,7 +82,7 @@ const links = computed(() => [
   { to: "/", label: t("nav.home") },
   { to: "/o-studio", label: t("nav.about") },
   { to: "/oferta", label: t("nav.offer") },
-  { to: "/zapisy", label: t("nav.booking"), highlight: true },
+  { to: "/zapisy", label: t("nav.booking"), shortLabel: t("nav.bookingShort"), highlight: true },
   { to: "/opinie", label: t("nav.reviews") },
   { to: "/wspolprace", label: t("nav.partners") },
   { to: "/kontakt", label: t("nav.contact") },

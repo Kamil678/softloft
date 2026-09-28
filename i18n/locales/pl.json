@@ -3,7 +3,8 @@
     "home": "Start",
     "about": "O studio",
     "offer": "Oferta",
-    "booking": "Zapisy",
+    "booking": "Zapisy i cennik",
+    "bookingShort": "Zapisy",
     "reviews": "Opinie",
     "partners": "Współprace",
     "contact": "Kontakt",
@@ -117,7 +118,7 @@
   },
   "offer": {
     "eyebrow": "Oferta",
-    "title": "Zajęcia i cennik",
+    "title": "Zajęcia",
     "subtitle": "Kameralne sesje na reformerach, dopasowane do Twojego poziomu i tempa.",
     "classesSection": {
       "detailsCta": "Szczegóły",
@@ -142,11 +143,17 @@
     }
   },
   "booking": {
-    "eyebrow": "Zapisy",
+    "eyebrow": "Zapisy i cennik",
     "title": "Zarezerwuj zajęcia",
     "subtitle": "Zapisy odbywają się wyłącznie online, przez aplikację Fitssey: rezerwujesz i odwołujesz trening dwoma kliknięciami.",
     "cta": "Otwórz Fitssey",
-    "pending": "Grafik zajęć pojawi się niebawem."
+    "pending": "Grafik zajęć pojawi się niebawem.",
+    "consent": {
+      "eyebrow": "Do pobrania",
+      "title": "Zgoda na wykorzystanie wizerunku",
+      "text": "Robimy zdjęcia i krótkie filmy z zajęć. Jeśli zgadzasz się na publikację swojego wizerunku, pobierz formularz, wydrukuj go i przynieś podpisany na zajęcia. Zgoda jest dobrowolna i możesz ją wycofać w każdej chwili.",
+      "cta": "Pobierz zgodę (PDF)"
+    }
   },
   "reviews": {
     "eyebrow": "Opinie",

@@ -22,7 +22,7 @@
       :primary-label="$t('home.finalCta.primaryCta')"
       primary-href="/zapisy"
       :secondary-label="$t('home.finalCta.secondaryCta')"
-      secondary-href="/oferta#cennik"
+      secondary-href="/zapisy#cennik"
     />
   </div>
 </template>

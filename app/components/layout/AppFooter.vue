@@ -1,11 +1,11 @@
 <template>
   <footer class="bg-header text-footer-text">
-    <div class="mx-auto flex flex-col justify-between max-w-7xl gap-10 px-4 py-14 sm:px-6 sm:flex-row">
-      <div class="flex flex-col items-center sm:items-start">
+    <div class="mx-auto flex max-w-7xl flex-col justify-between gap-10 px-4 py-14 sm:px-6 lg:flex-row">
+      <div class="flex flex-col items-center lg:items-start">
         <NuxtLink to="/" class="inline-flex">
           <AppLogo size="sm" />
         </NuxtLink>
-        <p class="mt-5 max-w-sm text-sm text-footer-text/70 max-sm:text-center">{{ $t("footer.tagline") }}</p>
+        <p class="mt-5 max-w-sm text-sm text-footer-text/70 max-lg:text-center">{{ $t("footer.tagline") }}</p>
 
         <div class="mt-6 flex items-center gap-3">
           <a
@@ -28,13 +28,13 @@
           </a>
         </div>
 
-        <AppButton variant="outline" class="mt-8" @click="scrollToTop">
+        <AppButton variant="outline" class="mt-8 whitespace-nowrap" @click="scrollToTop">
           <IconChevronUp :size="16" :stroke-width="1.8" />
           {{ $t("footer.backToTop") }}
         </AppButton>
       </div>
 
-      <div class="flex flex-col gap-10 sm:flex-row">
+      <div class="flex flex-col gap-10 sm:flex-row sm:justify-between sm:gap-8 lg:justify-start lg:gap-10">
         <div class="flex flex-col items-center sm:items-start">
           <p class="text-sm font-semibold tracking-[0.2em] text-footer-text/50 uppercase">{{ $t("footer.documents") }}</p>
           <div class="mt-5 flex flex-col items-center gap-3 text-sm text-footer-text/70 sm:items-start">

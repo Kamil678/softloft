@@ -1,12 +1,5 @@
 [
   {
-    "photo": "/images/instructors/maja.jpeg",
-    "name": "Maja Bączek",
-    "role": "Instruktorka Pilates",
-    "quote": "W pracy stawiam na indywidualne podejście.",
-    "specialization": "Jestem certyfikowaną instruktorką pilatesu i uczestniczką międzynarodowego programu BASI Pilates Comprehensive Teacher Training. Pomagam Wam bezpiecznie przekraczać granice, wzmacniać ciało i poprawiać jakość codziennego życia. Wierzę, że świadomy ruch budzi ciało i przynosi spokój umysłowi."
-  },
-  {
     "photo": "/images/instructors/nikodem.jpeg",
     "name": "Nikodem Perek",
     "role": "Instruktor Pilates",
