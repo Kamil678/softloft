@@ -5,10 +5,10 @@
     </p>
 
     <div class="grid gap-6 md:grid-cols-2 sm:gap-12 lg:gap-20">
-      <div class="relative md:min-h-[26rem]">
+      <div class="relative mx-auto w-11/12 md:self-center">
         <div class="absolute -inset-4 hidden rounded-2xl border border-accent/25 md:block" aria-hidden="true" />
-        <div class="mx-auto grid aspect-[4/5] w-full grid-cols-2 grid-rows-2 gap-2 md:aspect-auto md:h-full md:gap-3">
-          <div class="row-span-2 overflow-hidden rounded-xl shadow-lg">
+        <div class="mx-auto grid aspect-[4/5] w-full grid-cols-2 grid-rows-2 gap-2 md:gap-3">
+          <div class="overflow-hidden rounded-xl shadow-lg">
             <img
               src="/images/training/individual-training.png"
               alt="Trening pilates na reformerze w Soft Loft"
@@ -20,6 +20,14 @@
             <img
               src="/images/studio/studio-interior-evening.jpg"
               alt="Wnętrze studia Soft Loft"
+              class="h-full w-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <div class="overflow-hidden rounded-xl shadow-lg">
+            <img
+              src="/images/training/accesories.jpg"
+              alt="Akcesoria do pilatesu w studiu Soft Loft"
               class="h-full w-full object-cover"
               loading="lazy"
             />
