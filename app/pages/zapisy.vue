@@ -24,7 +24,7 @@
       </div>
     </section>
 
-    <section class="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
+    <!-- <section class="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
       <div class="flex flex-col items-center gap-6 rounded-2xl border border-border bg-surface p-8 text-center sm:p-10">
         <SectionHeading
           :eyebrow="$t('booking.consent.eyebrow')"
@@ -37,7 +37,7 @@
           {{ $t("booking.consent.cta") }}
         </AppButton>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
