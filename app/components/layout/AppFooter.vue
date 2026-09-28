@@ -5,7 +5,7 @@
         <NuxtLink to="/" class="inline-flex">
           <AppLogo size="sm" />
         </NuxtLink>
-        <p class="mt-5 max-w-sm text-sm text-footer-text/70 max-lg:text-center">{{ $t("footer.tagline") }}</p>
+        <p class="mt-5 max-w-sm text-sm whitespace-pre-line text-footer-text/70 max-lg:text-center">{{ $t("footer.tagline") }}</p>
 
         <div class="mt-6 flex items-center gap-3">
           <a
@@ -15,7 +15,7 @@
             aria-label="Instagram"
             class="inline-flex text-accent transition-all duration-200 hover:-translate-y-1 hover:scale-110 hover:text-accent-hover"
           >
-            <IconBrandInstagram :size="36" :stroke-width="1.5" />
+            <IconBrandInstagram :size="46" :stroke-width="1.5" />
           </a>
           <a
             :href="facebookUrl"
@@ -24,7 +24,7 @@
             aria-label="Facebook"
             class="inline-flex text-accent transition-all duration-200 hover:-translate-y-1 hover:scale-110 hover:text-accent-hover"
           >
-            <IconBrandFacebook :size="36" :stroke-width="1.5" />
+            <IconBrandFacebook :size="46" :stroke-width="1.5" />
           </a>
         </div>
 
