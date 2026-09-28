@@ -5,9 +5,9 @@
     </p>
 
     <div class="grid gap-6 md:grid-cols-2 sm:gap-12 lg:gap-16">
-      <div class="relative md:order-2 md:min-h-[36rem]">
+      <div class="relative mx-auto w-2/3 md:order-2 md:w-3/5 md:self-center">
         <div class="absolute -inset-4 hidden rounded-2xl border border-accent/25 md:block" aria-hidden="true" />
-        <div class="mx-auto aspect-[4/5] w-2/3 overflow-hidden rounded-xl shadow-lg md:aspect-auto md:w-full md:h-full">
+        <div class="mx-auto aspect-[4/5] w-full overflow-hidden rounded-xl shadow-lg">
           <img
             src="/images/training/solo-training-man.png"
             alt="Trening pilates na reformerze w Soft Loft"
