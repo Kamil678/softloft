@@ -1,14 +1,6 @@
 <template>
   <section class="max-w-7xl mx-auto px-4 py-16 sm:py-20 sm:px-6">
-    <div class="mx-auto grid items-center gap-8 sm:grid-cols-2 sm:gap-10 lg:gap-16">
-      <div class="mx-auto aspect-[4/5] w-2/3 overflow-hidden rounded-xl shadow-lg sm:w-full">
-        <img
-          src="/images/training/studio-training-scene.png"
-          alt="Wnętrze studia Soft Loft z reformerem pilates"
-          class="h-full w-full object-cover"
-          loading="lazy"
-        />
-      </div>
+    <div class="mx-auto grid items-center gap-8 md:grid-cols-2 md:gap-10 lg:gap-16">
       <div>
         <SectionHeading
           :eyebrow="$t('home.aboutTeaser.eyebrow')"
@@ -22,6 +14,14 @@
             <span class="text-sm leading-relaxed text-text sm:text-base">{{ item }}</span>
           </li>
         </ul>
+      </div>
+      <div class="order-first mx-auto aspect-[4/5] w-1/2 overflow-hidden rounded-xl shadow-lg md:order-none md:mr-0 md:w-3/5">
+        <img
+          src="/images/training/duo-training.png"
+          alt="Wnętrze studia Soft Loft z reformerem pilates"
+          class="h-full w-full object-cover"
+          loading="lazy"
+        />
       </div>
     </div>
   </section>
