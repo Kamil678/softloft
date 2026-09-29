@@ -3,9 +3,12 @@
     class="relative isolate flex min-h-[calc(100vh-var(--header-h,88px))] items-center overflow-hidden py-28 sm:py-32"
     :class="{ 'bg-header': !image }"
   >
-    <img
+    <NuxtImg
       v-if="image"
       :src="image"
+      sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:100vw 2xl:100vw"
+      format="webp"
+      preload
       :alt="imageAlt ?? ''"
       aria-hidden="true"
       class="absolute inset-0 -z-20 h-full w-full object-cover"

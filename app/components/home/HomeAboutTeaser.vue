@@ -16,7 +16,9 @@
         </ul>
       </div>
       <div class="order-first mx-auto aspect-[4/5] w-1/2 overflow-hidden rounded-xl shadow-lg md:order-none md:mr-0 md:w-3/5">
-        <img
+        <NuxtImg
+          sizes="xs:50vw sm:50vw md:480px"
+          format="webp"
           src="/images/training/duo-training.png"
           alt="Wnętrze studia Soft Loft z reformerem pilates"
           class="h-full w-full object-cover"

@@ -6,7 +6,7 @@
     />
 
     <div class="relative mx-auto grid max-w-5xl items-center gap-12 sm:grid-cols-2 sm:gap-16">
-      <img src="/images/logo-black.png" alt="Soft Loft - Pilates Reformer Studio" class="mx-auto h-56 w-auto sm:h-72" loading="lazy" />
+      <NuxtImg src="/images/logo-black.png" height="288" densities="x1 x2" format="webp" alt="Soft Loft - Pilates Reformer Studio" class="mx-auto h-56 w-auto sm:h-72" loading="lazy" />
 
       <p
         class="text-center font-heading text-[clamp(1.5rem,3.2vw,2.25rem)] leading-snug font-medium text-balance text-text italic sm:text-left"

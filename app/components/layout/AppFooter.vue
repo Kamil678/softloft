@@ -87,7 +87,7 @@
 
     <div class="bg-accent px-6 py-4 text-center text-xs text-accent-text sm:px-10">
       © {{ year }} Soft Loft. {{ $t("footer.rights") }} {{ $t("footer.credit") }}
-      <a href="https://kamilpigulak.com" target="_blank" class="font-semibold underline-offset-2 hover:underline">Kamil Pigulak</a>
+      <a href="https://kamilpigulak.com" target="_blank" rel="noopener" class="font-semibold underline-offset-2 hover:underline">Kamil Pigulak</a>
     </div>
   </footer>
 </template>

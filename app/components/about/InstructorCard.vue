@@ -4,7 +4,7 @@
   >
     <div class="aspect-[4/5] overflow-hidden">
       <!-- TODO: podmienić na docelowe zdjęcie instruktora od klientki -->
-      <img v-if="photo" :src="photo" :alt="name" class="h-full w-full object-cover" loading="lazy" />
+      <NuxtImg v-if="photo" :src="photo" sizes="xs:100vw sm:336px" format="webp" :alt="name" class="h-full w-full object-cover" loading="lazy" />
       <div v-else class="flex h-full w-full items-center justify-center bg-accent/5" aria-hidden="true">
         <span class="font-heading text-7xl font-medium text-accent/25">{{ name.charAt(0) }}</span>
       </div>
@@ -20,7 +20,7 @@
 
       <h3 class="mt-2 font-heading text-2xl font-medium text-text">{{ name }}</h3>
 
-      <p v-if="quote" class="mt-3 line-clamp-2 min-h-[2.875rem] text-sm leading-relaxed text-text-muted italic">
+      <p v-if="quote" class="mt-3 min-h-[2.875rem] text-sm leading-relaxed text-text-muted italic">
         „{{ quote }}”
       </p>
 

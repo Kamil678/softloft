@@ -8,7 +8,9 @@
       <div class="relative mx-auto w-2/3 md:order-2 md:w-3/5 md:self-center">
         <div class="absolute -inset-4 hidden rounded-2xl border border-accent/25 md:block" aria-hidden="true" />
         <div class="mx-auto aspect-[4/5] w-full overflow-hidden rounded-xl shadow-lg">
-          <img
+          <NuxtImg
+            sizes="xs:100vw sm:100vw md:480px"
+            format="webp"
             src="/images/training/solo-training-man.png"
             alt="Trening pilates na reformerze w Soft Loft"
             class="h-full w-full object-cover"

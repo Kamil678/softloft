@@ -8,7 +8,7 @@
     <span
       class="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-bg p-2 ring-1 ring-border sm:h-20 sm:w-20"
     >
-      <img :src="logo" :alt="name" class="h-full w-full object-contain" loading="lazy" />
+      <NuxtImg :src="logo" height="160" format="webp" :alt="name" class="h-full w-full object-contain" loading="lazy" />
     </span>
 
     <span class="min-w-0 text-center md:text-left">

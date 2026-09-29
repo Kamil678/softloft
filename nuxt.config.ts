@@ -4,6 +4,10 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n", "@nuxt/image", "@nuxt/fonts"],
   css: ["~/assets/css/main.css"],
 
+  image: {
+    quality: 75,
+  },
+
   fonts: {
     families: [
       { name: "Playfair Display", provider: "google", weights: [400, 500, 600] },
@@ -32,6 +36,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      htmlAttrs: { lang: "pl" },
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     },
   },

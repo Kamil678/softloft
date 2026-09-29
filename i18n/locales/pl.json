@@ -175,6 +175,14 @@
     "ctaText": "Szukamy marek i miejsc, które (podobnie jak my) stawiają na jakość, a nie ilość. Jeśli widzisz przestrzeń do wspólnego projektu, napisz do nas.",
     "ctaButton": "Skontaktuj się"
   },
+  "error": {
+    "eyebrow": "Błąd",
+    "title": "Coś poszło nie tak",
+    "text": "Przepraszamy, wystąpił nieoczekiwany błąd. Spróbuj ponownie za chwilę.",
+    "notFoundTitle": "Nie znaleziono strony",
+    "notFoundText": "Strona, której szukasz, nie istnieje lub została przeniesiona.",
+    "cta": "Wróć na stronę główną"
+  },
   "contact": {
     "eyebrow": "Kontakt",
     "title": "Odwiedź nas",

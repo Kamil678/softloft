@@ -9,7 +9,7 @@
         aria-modal="true"
         :aria-labelledby="title ? titleId : undefined"
         tabindex="-1"
-        class="relative w-full max-w-lg rounded-2xl border border-border bg-bg p-6 sm:p-8"
+        class="relative max-h-[calc(100dvh-2rem)] w-full max-w-lg overflow-y-auto overscroll-contain rounded-2xl border border-border bg-bg p-6 sm:p-8"
         @keydown="handleKeydown"
       >
         <button

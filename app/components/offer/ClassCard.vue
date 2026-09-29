@@ -3,7 +3,9 @@
     class="flex h-full flex-col overflow-hidden rounded-2xl bg-surface shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
   >
     <div class="aspect-[4/3] overflow-hidden">
-      <img
+      <NuxtImg
+        sizes="xs:100vw sm:50vw lg:400px"
+        format="webp"
         :src="image"
         :alt="name"
         class="h-full w-full object-cover"
