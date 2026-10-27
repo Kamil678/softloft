@@ -9,7 +9,7 @@
 
     <div
       v-if="instructors.length"
-      class="mt-12 flex flex-col items-center gap-10 sm:grid sm:justify-center sm:[grid-template-columns:repeat(auto-fit,minmax(280px,336px))]"
+      class="mx-auto mt-12 flex max-w-[880px] flex-col items-center gap-10 sm:grid sm:justify-center sm:[grid-template-columns:repeat(auto-fit,minmax(280px,420px))]"
     >
       <InstructorCard
         v-for="(instructor, idx) in instructors"
