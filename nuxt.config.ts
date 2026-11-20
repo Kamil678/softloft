@@ -31,6 +31,9 @@ export default defineNuxtConfig({
       privacyPolicy: "/docs/Polityka_Prywatnosci_i_Monitoringu_Soft_Loft.pdf",
       regulations: "/docs/Regulamin_Soft_Loft_Pilates.pdf",
       imageConsent: "/docs/Oświadczenie_i_ Zgoda_Na_Wykorzystanie_Wizerunku_Kienta.pdf",
+      minorsProtection: "/docs/Standardy_Ochrony_Maloletnich_Soft_Loft.pdf",
+      minorsProtectionShort: "/docs/Standardy_Ochrony_Maloletnich_Soft_Loft_wersja_skrocona.pdf",
+      parentalConsent: "/docs/Zgoda_Rodzica_Soft_Loft.pdf",
     },
   },
 

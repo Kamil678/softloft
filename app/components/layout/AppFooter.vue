@@ -38,11 +38,45 @@
         <div class="flex flex-col items-center sm:items-start">
           <p class="text-sm font-semibold tracking-[0.2em] text-footer-text/50 uppercase">{{ $t("footer.documents") }}</p>
           <div class="mt-5 flex flex-col items-center gap-3 text-sm text-footer-text/70 sm:items-start">
-            <a :href="regulationsUrl" target="_blank" rel="noopener noreferrer" class="text-sm transition-colors hover:text-accent-hover">
+            <a
+              :href="regulationsUrl"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-sm text-center transition-colors hover:text-accent-hover sm:text-left"
+            >
               {{ $t("footer.terms") }}
             </a>
-            <a :href="privacyPolicyUrl" target="_blank" rel="noopener noreferrer" class="text-sm transition-colors hover:text-accent-hover">
+            <a
+              :href="privacyPolicyUrl"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-sm text-center transition-colors hover:text-accent-hover sm:text-left"
+            >
               {{ $t("footer.privacyPolicy") }}
+            </a>
+            <a
+              :href="minorsProtectionUrl"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-sm text-center transition-colors hover:text-accent-hover sm:text-left"
+            >
+              {{ $t("footer.minorsProtection") }}
+            </a>
+            <a
+              :href="minorsProtectionShortUrl"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-sm text-center transition-colors hover:text-accent-hover sm:text-left"
+            >
+              {{ $t("footer.minorsProtectionShort") }}
+            </a>
+            <a
+              :href="parentalConsentUrl"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-sm text-center transition-colors hover:text-accent-hover sm:text-left"
+            >
+              {{ $t("footer.parentalConsent") }}
             </a>
           </div>
         </div>
@@ -87,7 +121,9 @@
 
     <div class="bg-accent px-6 py-4 text-center text-xs text-accent-text sm:px-10">
       © {{ year }} Soft Loft. {{ $t("footer.rights") }} {{ $t("footer.credit") }}
-      <a href="https://kamilpigulak.com" target="_blank" rel="noopener" class="font-semibold underline-offset-2 hover:underline">Kamil Pigulak</a>
+      <a href="https://kamilpigulak.com" target="_blank" rel="noopener" class="font-semibold underline-offset-2 hover:underline"
+        >Kamil Pigulak</a
+      >
     </div>
   </footer>
 </template>
@@ -111,6 +147,9 @@ const [addressStreet, addressCity] = address.split(/,\s*(.*)/s);
 const directionsUrl = publicConfig.directionsUrl as string;
 const privacyPolicyUrl = publicConfig.privacyPolicy as string;
 const regulationsUrl = publicConfig.regulations as string;
+const minorsProtectionUrl = publicConfig.minorsProtection as string;
+const minorsProtectionShortUrl = publicConfig.minorsProtectionShort as string;
+const parentalConsentUrl = publicConfig.parentalConsent as string;
 
 const year = new Date().getFullYear();
 
