@@ -21,7 +21,10 @@
     "backToTop": "Powrót do góry",
     "documents": "Dokumenty",
     "terms": "Regulamin",
-    "privacyPolicy": "Polityka prywatności"
+    "privacyPolicy": "Polityka prywatności",
+    "minorsProtection": "Standardy ochrony małoletnich",
+    "minorsProtectionShort": "Standardy ochrony małoletnich (wersja dla małoletnich)",
+    "parentalConsent": "Zgoda rodzica na udział osoby małoletniej (16-18l.)"
   },
   "home": {
     "heroEyebrow": "Soft Loft Pilates Reformer Studio",
